@@ -1,4 +1,4 @@
-VERSION:537296895
+VERSION:537395199
 
 4,,warning: coap send reply failed 
 3,iii,COAP OFLD send periodic ptrn vdev_id=%d ptrnId=%d ptrnLen=%d 
@@ -40,155 +40,155 @@ VERSION:537296895
 21,IIIIIIII,payload: %x %x %x %x %x %x %x %x 
 20,IIIIIIII,         %x %x %x %x %x %x %x %x 
 20,IIIIIIII,         %x %x %x %x %x %x %x %x 
-101,i,FTM Tx ChainMask %d overwrite to 0x2 due to BT2ed Harmonic! 
-100,Ii,%s: #### Getting cal version:bdfvertype: %d  !
+38,,LM_DBG: NULL pdev return 
+37,Ii,LM_DBG: ABI on-period tx_duration_data %ld(US) current_time(MS) %d 
+36,Ii,LM_DBG: ABI off-period tx_duration_data(US) %ld curTime(MS) %d 
+40,iIi,GetDpdLoopbackInfoHandler phyId %d chainMask 0x%x GlutIdx %d 
+39,ii,GetDpdLoopbackInfoHandler nmse %d, nmse_nondpd %d 
+106,i,FTM Tx ChainMask %d overwrite to 0x2 due to BT2ed Harmonic! 
+105,Ii,%s: #### Getting cal version:bdfvertype: %d  !
  
-99,iii,PHYDBGdump2Handler(Phy:%d, Option:%d capture_bank:%d) 
-97,IiI,### data_ptr %p size %d status 0x%x
+104,iii,PHYDBGdump2Handler(Phy:%d, Option:%d capture_bank:%d) 
+102,IiI,### data_ptr %p size %d status 0x%x
  
-96,Ii,### data_ptr %p stream_cnt %d
+101,Ii,### data_ptr %p stream_cnt %d
  
-95,,### Data buffer stream ended
+100,,### Data buffer stream ended
  
-98,ii,PHYDBGdumpHandler(Phy:%d, Option:%d)
+103,ii,PHYDBGdumpHandler(Phy:%d, Option:%d)
  
-97,IiI,### data_ptr %p size %d status 0x%x
+102,IiI,### data_ptr %p size %d status 0x%x
  
-96,Ii,### data_ptr %p stream_cnt %d
+101,Ii,### data_ptr %p stream_cnt %d
  
-95,,### Data buffer stream ended
+100,,### Data buffer stream ended
  
-94,Ii,%s :set cal version , bdfvertype: %d !
+99,Ii,%s :set cal version , bdfvertype: %d !
  
-90,i,Channel index out of bounds %d 
-93,i,Power offset Index out of bounds %d 
-92,ii,2G index %d flag %d 
-91,ii,values written 2G %d 5G %d 
-90,i,Channel index out of bounds %d 
-90,i,Channel index out of bounds %d 
-89,i,Target Power index out of bounds %d 
-88,i,Gain index out of bounds %d 
-87,,OPC_OTP_WRITE:Ready to send response!
+95,i,Channel index out of bounds %d 
+98,i,Power offset Index out of bounds %d 
+97,ii,2G index %d flag %d 
+96,ii,values written 2G %d 5G %d 
+95,i,Channel index out of bounds %d 
+95,i,Channel index out of bounds %d 
+94,i,Target Power index out of bounds %d 
+93,i,Gain index out of bounds %d 
+92,,OPC_OTP_WRITE:Ready to send response!
  
-86,I,OTP Write status, 0x%x 
-85,,OPC_OTP_WRITE:send response done!
+91,I,OTP Write status, 0x%x 
+90,,OPC_OTP_WRITE:send response done!
  
-84,,bdGetSizeHandler
+89,,bdGetSizeHandler
  
-83,iIii,bdReadHandler: bdSize %d, offset 0x%x, size %d, source %d
+88,iIii,bdReadHandler: bdSize %d, offset 0x%x, size %d, source %d
  
-82,i,error in bdReadHandler: status %d
+87,i,error in bdReadHandler: status %d
  
-81,Ii,bdWriteHandler: offset 0x%x, size %d
+86,Ii,bdWriteHandler: offset 0x%x, size %d
  
-80,IIIII,COEX Req Handler(wght0= 0x%x,wght1= 0x%x,wght2= 0x%x,wght3= 0x%x,wght4= 0x%x)
+85,IIIII,COEX Req Handler(wght0= 0x%x,wght1= 0x%x,wght2= 0x%x,wght3= 0x%x,wght4= 0x%x)
  
-79,IIIIII,COEX Req Handler(wght5= 0x%x,wght6= 0x%x,wght7= 0x%x,wght8= 0x%x,wght9= 0x%x,wght10= 0x%x)
+84,IIIIII,COEX Req Handler(wght5= 0x%x,wght6= 0x%x,wght7= 0x%x,wght8= 0x%x,wght9= 0x%x,wght10= 0x%x)
  
-78,iIi,COEX Req Handler(enableDynamicAggr= %d,shareChainMask= 0x%x,enableConcurrentTxChain0= %d)
+83,iIi,COEX Req Handler(enableDynamicAggr= %d,shareChainMask= 0x%x,enableConcurrentTxChain0= %d)
  
-77,iIii,COEX Req Handler(btRxAllowWlanTxUnshared= %d,btTxAllowWlanTxShared= 0x%x,wlanTxAllowBtRxShared= %d,wlanRxAllowBtTxShared= %d)
+82,iIii,COEX Req Handler(btRxAllowWlanTxUnshared= %d,btTxAllowWlanTxShared= 0x%x,wlanTxAllowBtRxShared= %d,wlanRxAllowBtTxShared= %d)
  
-76,iIi,COEX Req Handler(concurrentTxEnable= %d,btRxAllowWlanUnsharedTx= 0x%x,wlan1sTxBtTx= %d)
+81,iIi,COEX Req Handler(concurrentTxEnable= %d,btRxAllowWlanUnsharedTx= 0x%x,wlan1sTxBtTx= %d)
  
-75,ii,combCalGroupHandler(): phyId = %d; cmdid = %d 
-74,IIII,%s: offset %ld, size %ld, totalsize %ld 
-73,III,%s: offset %ld, size %ld 
-72,,ftm_rx_termperature_timer_handler::MAC sleeping 
-71,,ftm_termperature_timer_handler::MAC sleeping 
-70,,UTFCMD: genericUtfCmdHandler  
-69,,### genericUtfCmdHandler: InValid CmdID#### 
-68,,UTFCMD: genericUtfCmdHandler exit  
-57,,Failed Rx Stop 
-67,ii,UTFCMD: UTF_CMD_CHANGECHAINMASK phyId=%d tcmd_state[phyId].specialCmds=%d 
-66,ii,UTFCMD: CMD_LP_CM phyId=%d Sleep CM %d  
-65,ii,UTFCMD: CMD_LP_CM phyId=%d Wake CM %d 
-64,i,UTFCMD: UTF_CMD_WARM_RESET phid %d 
-63,ii,UTFCMD: UTF_CMD_SET_MM_CMD_SEQID phid %d MMSeqID %d  
-62,i, FATAL ERROR!! Trying to access phy %d which is not present 
-61,i, FATAL ERROR!! Trying to access phy %d which is inactive 
-60,I,modifyBDFOTPFlagsHandler: modifyBdfOtpFlags 0x%x 
-59,,modifyBDFOTPFlagsHandler: pCmdStream is NULL 
-58,,OFDMA TonePlan
+80,ii,combCalGroupHandler(): phyId = %d; cmdid = %d 
+79,IIII,%s: offset %ld, size %ld, totalsize %ld 
+78,III,%s: offset %ld, size %ld 
+77,,ftm_rx_termperature_timer_handler::MAC sleeping 
+76,,ftm_termperature_timer_handler::MAC sleeping 
+75,,UTFCMD: genericUtfCmdHandler  
+74,,### genericUtfCmdHandler: InValid CmdID#### 
+73,,UTFCMD: genericUtfCmdHandler exit  
+62,,Failed Rx Stop 
+72,ii,UTFCMD: UTF_CMD_CHANGECHAINMASK phyId=%d tcmd_state[phyId].specialCmds=%d 
+71,ii,UTFCMD: CMD_LP_CM phyId=%d Sleep CM %d  
+70,ii,UTFCMD: CMD_LP_CM phyId=%d Wake CM %d 
+69,i,UTFCMD: UTF_CMD_WARM_RESET phid %d 
+68,ii,UTFCMD: UTF_CMD_SET_MM_CMD_SEQID phid %d MMSeqID %d  
+67,i, FATAL ERROR!! Trying to access phy %d which is not present 
+66,i, FATAL ERROR!! Trying to access phy %d which is inactive 
+65,I,modifyBDFOTPFlagsHandler: modifyBdfOtpFlags 0x%x 
+64,,modifyBDFOTPFlagsHandler: pCmdStream is NULL 
+63,,OFDMA TonePlan
  
-57,,Failed Rx Stop 
-56,ii,FTM :: pktgen_complete_timer_handler:  pktgen_complete_timer_handler: Pktgen Tx STOP completion callback failure for phyId %d g_pktgen_done_assert_count %d 
-55,iiiiiii,rxHandler: phyId %d rxMode %d wlanMode %d freq %d freq2 %d chainMask %d wifiStandard %d 
-54,ii,rxHandler: issue ftm_imps_wakeup: phyId=%d, rxMode=%d
+62,,Failed Rx Stop 
+61,ii,FTM :: pktgen_complete_timer_handler:  pktgen_complete_timer_handler: Pktgen Tx STOP completion callback failure for phyId %d g_pktgen_done_assert_count %d 
+60,iiiiiii,rxHandler: phyId %d rxMode %d wlanMode %d freq %d freq2 %d chainMask %d wifiStandard %d 
+59,ii,rxHandler: issue ftm_imps_wakeup: phyId=%d, rxMode=%d
  
-53,i,RX operation not allowed on phyID %d one operation ongoing 
-52,,#### per chain forced pwr TLV called!
+58,i,RX operation not allowed on phyID %d one operation ongoing 
+57,,#### per chain forced pwr TLV called!
  
-51,iI,setPhyRfModeHandler: DBS/SBS is not supported, phyRfMode %d status 0x%x  
-50,I,pdev %u 
-50,I,pdev %u 
-49,iiiiiII,curChan->band_center_freq1 %d, curChan->band_center_freq2 %d, PHYRF_BW_IDX(curChan) %d curChan->phy_mode %d num_20_bw %d rx_CM %x, tx_CM %x 
-48,ii,pilot_evm pilot_evm_dB_mean[%d] = %d 
-47,I,FTM :: tlv2SendTxStatus:  timestamp = %ld 
-46,iiii,Tx Gain Control:Chain %d, Gain %d, dacGain %d, forceCal %d 
+56,iI,setPhyRfModeHandler: DBS/SBS is not supported, phyRfMode %d status 0x%x  
+55,I,pdev %u 
+55,I,pdev %u 
+54,iiiiiII,curChan->band_center_freq1 %d, curChan->band_center_freq2 %d, PHYRF_BW_IDX(curChan) %d curChan->phy_mode %d num_20_bw %d rx_CM %x, tx_CM %x 
+53,ii,pilot_evm pilot_evm_dB_mean[%d] = %d 
+52,I,FTM :: tlv2SendTxStatus:  timestamp = %ld 
+51,iiii,Tx Gain Control:Chain %d, Gain %d, dacGain %d, forceCal %d 
  
-45,i,FTM phyid %d :: txHandler invoked
+50,i,FTM phyid %d :: txHandler invoked
  
-44,i,FTM :: txHandler: TX operation not allowed on phyID %d one operation ongoing 
-43,i,FTM: OFDMA Tone Plan BW %d 
-42,IIII,FTM :: txHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
-41,ii,FTM :: txHandler dev running state=%d iterations_taken_to_flush=%d 
-40,iI,FTM :: txHandler: Sent response to host with status =%d, timestamp =%ld 
-39,iiiiiiiI,FTM :: txHandler: phyId %d txMode %d freq %d freq2 %d wlanMode %d chainMask %d wifiStandard %d timestamp =%ld 
-38,iiI,FTM :: txStatusHandler: INSIDE txStatusHandler phyId =%d pParms->needReport=%d timestamp : %u 
-37,ii,FTM :: txStatusHandler: pParms->needReport=%d pParms->stopTx=%d 
-36,IIII,FTM :: txStatusHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
-104,,LM_DBG: NULL pdev return 
-103,Ii,LM_DBG: ABI on-period tx_duration_data %ld(US) current_time(MS) %d 
-102,Ii,LM_DBG: ABI off-period tx_duration_data(US) %ld curTime(MS) %d 
-105,i,OFDMA_ru_size: %d invalid 
-107,iIi,GetDpdLoopbackInfoHandler phyId %d chainMask 0x%x GlutIdx %d 
-106,ii,GetDpdLoopbackInfoHandler nmse %d, nmse_nondpd %d 
-130,III,lowpowerHandler: lowPowerMode:0x%x, lowPowerFeatureMask:0x%x, phyIdMask:0x%x, 
+49,i,FTM :: txHandler: TX operation not allowed on phyID %d one operation ongoing 
+48,i,FTM: OFDMA Tone Plan BW %d 
+47,IIII,FTM :: txHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
+46,ii,FTM :: txHandler dev running state=%d iterations_taken_to_flush=%d 
+45,iI,FTM :: txHandler: Sent response to host with status =%d, timestamp =%ld 
+44,iiiiiiiI,FTM :: txHandler: phyId %d txMode %d freq %d freq2 %d wlanMode %d chainMask %d wifiStandard %d timestamp =%ld 
+43,iiI,FTM :: txStatusHandler: INSIDE txStatusHandler phyId =%d pParms->needReport=%d timestamp : %u 
+42,ii,FTM :: txStatusHandler: pParms->needReport=%d pParms->stopTx=%d 
+41,IIII,FTM :: txStatusHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
+108,II,FTM_DEBUG :: txCmdProcessor, TxMiscFlags : 0x%x txParms->aifsn=0x%x 
+107,iiiii,FTM :: txCmdProcessor channel=%d txPwr=%d dataRrate=%d numPkt=%d txChain=%d
  
-129,,lowpowerHandler: lowPowerMode:done 
-128,i,lowpowerHandler_btclock: BT CLOCK enable=0x%d 
-127,i,lowpowerHandler_dss: synth_control=%d 
-126,ii,lowpowerHandler_dssvotedisable: phyId=%d, g_dss_vote_disable_all=%d 
-125,I,lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is inactive! 
+131,III,lowpowerHandler: lowPowerMode:0x%x, lowPowerFeatureMask:0x%x, phyIdMask:0x%x, 
  
-124,I,lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is in sleep! 
+130,,lowpowerHandler: lowPowerMode:done 
+129,i,lowpowerHandler_btclock: BT CLOCK enable=0x%d 
+128,i,lowpowerHandler_dss: synth_control=%d 
+127,ii,lowpowerHandler_dssvotedisable: phyId=%d, g_dss_vote_disable_all=%d 
+126,I,lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is inactive! 
  
-123,II,lowpowerHandler_hdl_psMask: phyId:0x%x, hdlpsMask=0x%x 
+125,I,lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is in sleep! 
  
-122,iii,lowpower phyid %d :: initial globals imps (%d) bmps (%d) 
+124,II,lowpowerHandler_hdl_psMask: phyId:0x%x, hdlpsMask=0x%x 
  
-121,iii,lowpower phyid %d :: Updated globals imps (%d) bmps (%d) 
+123,iii,lowpower phyid %d :: initial globals imps (%d) bmps (%d) 
  
-120,i,lowpowerHandler_lpSynthForLegacyRx: g_ftm_lpSynthForLegacyRx_enable=0x%d 
+122,iii,lowpower phyid %d :: Updated globals imps (%d) bmps (%d) 
  
-119,i,lowpowerHandler_lpSynthForLegacyTx: g_ftm_lpSynthForLegacyTx_enable=0x%d 
+121,i,lowpowerHandler_lpSynthForLegacyRx: g_ftm_lpSynthForLegacyRx_enable=0x%d 
  
-118,II,lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x, No effect as phy is inactive! 
+120,i,lowpowerHandler_lpSynthForLegacyTx: g_ftm_lpSynthForLegacyTx_enable=0x%d 
  
-117,II,lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x 
+119,II,lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x, No effect as phy is inactive! 
  
-116,I,lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is inactive! 
+118,II,lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x 
  
-115,I,lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is in sleep! 
+117,I,lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is inactive! 
  
-114,i,lowpowerHandler_phydbgEnable: g_phydbg_disable=%d
+116,I,lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is in sleep! 
  
-113,I,lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is inactive! 
+115,i,lowpowerHandler_phydbgEnable: g_phydbg_disable=%d
  
-112,i,lowpowerHandler_phydbgdisable: g_phydbg_disable=%d
+114,I,lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is inactive! 
  
-111,I,lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is in sleep! 
+113,i,lowpowerHandler_phydbgdisable: g_phydbg_disable=%d
  
-110,II,lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is inactive! 
+112,I,lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is in sleep! 
  
-109,II,lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is in sleep! 
+111,II,lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is inactive! 
  
-108,II,lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x 
+110,II,lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is in sleep! 
  
-132,II,FTM_DEBUG :: txCmdProcessor, TxMiscFlags : 0x%x txParms->aifsn=0x%x 
-131,iiiii,FTM :: txCmdProcessor channel=%d txPwr=%d dataRrate=%d numPkt=%d txChain=%d
+109,II,lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x 
  
+132,i,OFDMA_ru_size: %d invalid 
 169,I,Invalid pdev %lu 
 168,ii,ftm_txoff_dur_calc: txtime = %d->%d 
 167,,A: NEW COMMAND ISSUED 
@@ -281,188 +281,188 @@ VERSION:537296895
 195,II,ftm_ocl_tx_start: phyId:0x%x, ocl_enable=0x%x 
 194,ii,lowpower %d :: ftm_tx_rx_trigger_bmps , isTx=%d, BMPS sleep 
  
-211,ii,[TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
-210,i,[ERROR]result: %d 
-209,i,[ERROR]xtal cal ok %d 
-208,i,[ERROR]error setting PMIC fail %d 
-207,i,[ERROR]error readback trim fail %d 
-206,ii,[ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
-205,ii,NEWXTALCALPROCHandler get the trim range min = %d, max = %d
+228,,cust_OPC_dbg: GET_INIT 
  
-204,II,[ERROR]pmic trim value higher than max value %x , %x 
-231,iiiiiiii,cust_rxGainCal_dbg: Saving Results for rssiDBr=%d phyId %d, chainIdx %d, PNFdBr %d PNFdBm %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d minCcaThreshold=%d 
-230,,cust_rxGainCal_dbg: Cleared Rxgain Caldata for band 
+227,,cust_OPC_dbg: GET_OPC_TARGET_PARAMS 
  
-229,i,cust_rxGainCal_dbg: Rxgain Caldata Saved with status %d
+226,,cust_OPC_dbg: SET_OPC_TARGET_PARAMS 
  
-228,iii,cust_rxGainCal_dbg: Rx Gain cal result Save Failure for phyId %d,Invalid Channel %d chainIdx %d 
-227,,cust_rxGainCal_dbg: GET_INIT 
+225,,cust_OPC_dbg: Invalid OPC Argument
  
-226,,cust_rxGainCal_dbg: GET_CUST_RXGAINCAL_TARGET_PARAMS 
+224,Iiii,tpcOnepointCal::Starting Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
+223,Iiii,tpcOnepointCal::Stopping Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
+222,iii,tpcOnepointCal::Failure at BandIdx:%d chanIdx:%d chainIdx:%d 
+221,,tpcOnepointCal:: end loop 1 
+220,,tpcOnepointCal:: break 
+219,,tpcOnepointCal:: end loop 
+218,i,tpcOnepointCal::chan::2g %d 
+217,i,tpcOnepointCal::chan::5g %d 
+210,ii,tpcOnepointCal::TPC_DBG 5G numChain %d 2G numChain %d 
+216,ii,tpcOnepointCal::TPC_DBG band %d idxChan %d 
+215,iii,cust_OPC_dbg: Sent to Host status=%d glutoffset=%d thermaloffset=%d 
+214,I,cust_OPC_dbg: Sent to Host pCmdStream=%p 
+213,IIII,tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
+213,IIII,tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
+212,,tpcOnepointcal::Completed 
+211,Iii,cust_OPC_dbg: Pwr measurement for phy %u, glutoffset %d, thermOffset %d 
+210,ii,tpcOnepointCal::TPC_DBG 5G numChain %d 2G numChain %d 
+209,i,cust_OPC_dbg: OPC Caldata Saved with status %d
  
-225,,cust_rxGainCal_dbg: SET_CUST_RXGAINCAL_TARGET_PARAMS 
+208,i,cust_OPC_dbg: Invalid Frequency:%d
  
-224,,cust_rxGainCal_dbg: Invalid CUST_RXGAINCAL Argument
+207,,tpcOnepointCAL::Starting... 
+206,,tpcOnepointcal::Failure, -999 power detected 
+205,IIIiiI,tpcOnepointCal::Pwr measurement for phy %u, freq %u, chainMask %u, glutOffset %d, thermOffset %d, measPwr_db8 is %u 
+204,,tpcOnepointCal::tpcPowerMeasurementDelayTimeout 
+306,iii,chk1 Max_TX_CAL_Gain_ID_5G:%d Max_TX_CAL_Gain_ID_2G %d Max_TX_CAL_Gain_ID_6G %d 
+305,Ii,greenTxGainIndGrpFlag2G:%x, greenTxGainIndGrpFlag5G:%d 
  
-223,iiiiii,rxGainCal:: Starting Rx on phyId %d, is2Ghz %d, Chain %d Chan %d, rxMode %d refISS Level %d 
-222,i,rxGainCal:: Error on chainIdx %d
+304,iiii, 5G IdxGainEndGrp1:%d IdxGainEndGrp2:%d IdxGainEndGrp3:%d IdxGainEndGrp4:%d
  
-222,i,rxGainCal:: Error on chainIdx %d
+303,IIII,tpccal::2G opcChan[%u] %u, tpcChan[%u] %u 
+302,IIII,tpccal::5G opcChan[%u] %u, tpcChan[%u] %u 
+301,iiiii,freq %d gIdx %d dacGain %d paCfg %d chMask %d
  
-221,i,rxGainCal:: Error on chainIdx status %d
+300,III,tpccal::Stopping tx before starting for Chan %u, Chain %u, Gain %u 
+299,,tpccal::Generating Caldata 
+298,ii,tpcCal::Generating Caldata for Channel %d dacGainforCal %d 
+297,i,tpcCal::Generating Caldata for Chain %d 
+294,iii,tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
+296,iii,tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d 
+292,iii,tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
+295,iii,tpcCal::Generating Caldata for Chain %d sbsOffset %d NUM_CAL_GAINS_SELECTED_4_GLUT:%d 
+294,iii,tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
+293,iiii,tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d numGlutEntries_5G:%d 
+292,iii,tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
+291,iii,phyId:%d cmask:%d pwrAtPdadc:%d 
+290,III,getNextLoop fail curLoop->idxCalPt %u, Chain %u, Gain %u 
+289,iiiii,bef, band %d ch %d numCh %d chain %d gain %d
  
-220,iiii,cust_rxGainCal_dbg::: Sent to Host status=%d NFdbr=%d NFdbm=%d minccaThreshold=%d 
-219,I,cust_rxGainCal_dbg:: Sent to Host pCmdStream=%p 
-218,iiii,rxGainCal:: CMD_RXGAINCALRSP phyId=%d band=%d refISS=%d bandWidth=%d 
-217,iiii,rxGainCal:: CMD_RXGAINCALRSP chanIdx=%d chainIdx=%d numPackets=%d freq=%d 
-216,ii,rxGainCal:: Host error: phyId %d,  veryFirstRxGainCal %d 
-215,iiiiii,rxGainCal:: Host error: phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d,  rxGainCalState.status %d 
-214,iiiiiiiii,rxGainCal:: rssiDBr=%d Saving Results for phyId %d, chainIdx %d, ChanIdx %d, PNFdBr %d, PNFdBm %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d minCCAThreshold=%d 
-213,iiiiii,rxGainCal:: Saving Results for phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d totalPkt=%d 
-212,,nextLoopRxCal is NULL 
-256,,cust_OPC_dbg: GET_INIT 
+288,,end loop0
  
-255,,cust_OPC_dbg: GET_OPC_TARGET_PARAMS 
+287,iiii,inc calPt %d ch %d chn %d, numGain %d
  
-254,,cust_OPC_dbg: SET_OPC_TARGET_PARAMS 
+286,ii,inc chain AI %d %d
  
-253,,cust_OPC_dbg: Invalid OPC Argument
+285,ii,inc ch AI %d %d
  
-252,Iiii,tpcOnepointCal::Starting Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
-251,Iiii,tpcOnepointCal::Stopping Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
-250,iii,tpcOnepointCal::Failure at BandIdx:%d chanIdx:%d chainIdx:%d 
-249,,tpcOnepointCal:: end loop 1 
-248,,tpcOnepointCal:: break 
-247,,tpcOnepointCal:: end loop 
-246,i,tpcOnepointCal::chan::2g %d 
-245,i,tpcOnepointCal::chan::5g %d 
-238,ii,tpcOnepointCal::TPC_DBG 5G numChain %d 2G numChain %d 
-244,ii,tpcOnepointCal::TPC_DBG band %d idxChan %d 
-243,iii,cust_OPC_dbg: Sent to Host status=%d glutoffset=%d thermaloffset=%d 
-242,I,cust_OPC_dbg: Sent to Host pCmdStream=%p 
-241,IIII,tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
-241,IIII,tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
-240,,tpcOnepointcal::Completed 
-239,Iii,cust_OPC_dbg: Pwr measurement for phy %u, glutoffset %d, thermOffset %d 
-238,ii,tpcOnepointCal::TPC_DBG 5G numChain %d 2G numChain %d 
-237,i,cust_OPC_dbg: OPC Caldata Saved with status %d
+284,ii,inc band AI %d %d
  
-236,i,cust_OPC_dbg: Invalid Frequency:%d
+283,,end loop
  
-235,,tpcOnepointCAL::Starting... 
-234,,tpcOnepointcal::Failure, -999 power detected 
-233,IIIiiI,tpcOnepointCal::Pwr measurement for phy %u, freq %u, chainMask %u, glutOffset %d, thermOffset %d, measPwr_db8 is %u 
-232,,tpcOnepointCal::tpcPowerMeasurementDelayTimeout 
-334,iii,chk1 Max_TX_CAL_Gain_ID_5G:%d Max_TX_CAL_Gain_ID_2G %d Max_TX_CAL_Gain_ID_6G %d 
-333,Ii,greenTxGainIndGrpFlag2G:%x, greenTxGainIndGrpFlag5G:%d 
+282,iiii,pwr est %d band %d numEst %d, idx %d 
+281,iiiii,sG %d %d %d %d %d  
+280,i,%d
  
-332,iiii, 5G IdxGainEndGrp1:%d IdxGainEndGrp2:%d IdxGainEndGrp3:%d IdxGainEndGrp4:%d
+279,i,available_gainIdxs:%d 
+278,iiii,Iteration m:%d glutsfilled[%d]:%d Max_Glut_Map[band][grpId]:%d 
+277,i,tpcCalResult[band][chan].measPwr[chain][m]:%d 
+276,,ERR: BAD CAL TARGETs CONFIGURED for:  
+275,i,Picked limiting gainidx:%d 
+274,i,Picked gainidx:%d  
+273,,Moving up gainidxs to guarantee GLUT count! 
+272,ii,currIndx:%d Updated endPwrIdxGrp:%d 
+271,,BAD CAL TARGETs CONFIGURED for 
+270,ii,Picked max gainidx:%d from group :%d  
+269,,Invalid pick_glut_entry condition! 
+268,,tpccal::Post processing CLPC Caldata 
+266,ii,tpccal::skip gainIdx %d (< thresh %d) 
+267,,tpccal::Post processing CLPC Caldata GTX 
+266,ii,tpccal::skip gainIdx %d (< thresh %d) 
+266,ii,tpccal::skip gainIdx %d (< thresh %d) 
+265,,tpccal::Post processing OLPC Caldata 
+264,,pp OLPC
  
-331,IIII,tpccal::2G opcChan[%u] %u, tpcChan[%u] %u 
-330,IIII,tpccal::5G opcChan[%u] %u, tpcChan[%u] %u 
-329,iiiii,freq %d gIdx %d dacGain %d paCfg %d chMask %d
+263,iiiii,meaPwr %d tgtPwr %d, bn %d ch %d chn %d, 
  
-328,III,tpccal::Stopping tx before starting for Chan %u, Chain %u, Gain %u 
-327,,tpccal::Generating Caldata 
-326,ii,tpcCal::Generating Caldata for Channel %d dacGainforCal %d 
-325,i,tpcCal::Generating Caldata for Chain %d 
-322,iii,tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
-324,iii,tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d 
-320,iii,tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
-323,iii,tpcCal::Generating Caldata for Chain %d sbsOffset %d NUM_CAL_GAINS_SELECTED_4_GLUT:%d 
-322,iii,tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
-321,iiii,tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d numGlutEntries_5G:%d 
-320,iii,tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
-319,iii,phyId:%d cmask:%d pwrAtPdadc:%d 
-318,III,getNextLoop fail curLoop->idxCalPt %u, Chain %u, Gain %u 
-317,iiiii,bef, band %d ch %d numCh %d chain %d gain %d
+262,i,numValidMeas = %d
  
-316,,end loop0
+261,iiii,bkof %d bn %d ch %d chn %d
  
-315,iiii,inc calPt %d ch %d chn %d, numGain %d
+260,iiii,stPwrIdx %d bn %d ch %d chn %d
  
-314,ii,inc chain AI %d %d
+259,iiiiiiii,iMeas %d iGainIdx %d tgt %d ch %d chn %d sel pwr %d gIdx %d dac %d
  
-313,ii,inc ch AI %d %d
+258,,postProcessingOLPCCALData_gtx 
+257,iiii,BegiN: Band:%d chan:%d startPwrIdxGrp:%d  endPwrIdxGrp:%d  
+256,ii,gtx tgtpwridx:%d , GlutPwrMapGrpNum:%d  
+255,iii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
+252,i,endPwrIdxGrp:%d 
+255,iii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
+252,i,endPwrIdxGrp:%d 
+254,iiii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp3:%d modifiedTarget:%d 
+252,i,endPwrIdxGrp:%d 
+253,iiii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp4:%d modifiedTarget:%d 
+252,i,endPwrIdxGrp:%d 
+251,iii,gtx Invalid TPC_GLUT_PWR_MAP_GRP Id ! from Band:%d Chain:%d tgtpwridx:%d 
+250,ii,Sending to host freq2G %d, freq5G %d
  
-312,ii,inc band AI %d %d
+249,iii,Sending to host freq2G %d, freq5G %d, chain %d 
+246,iiii,gain %d pwr %d numChain %d numCalpt %d
  
-311,,end loop
+248,IIII,tpccal::Sending to host to look for measurements inChan2G %u, Chan5G %u, ChainMask(User) %u, Gain %u 
+247,iii,Sending to host freq2G %d, freq5G %d, chain %d
  
-310,iiii,pwr est %d band %d numEst %d, idx %d 
-309,iiiii,sG %d %d %d %d %d  
-308,i,%d
+246,iiii,gain %d pwr %d numChain %d numCalpt %d
  
-307,i,available_gainIdxs:%d 
-306,iiii,Iteration m:%d glutsfilled[%d]:%d Max_Glut_Map[band][grpId]:%d 
-305,i,tpcCalResult[band][chan].measPwr[chain][m]:%d 
-304,,ERR: BAD CAL TARGETs CONFIGURED for:  
-303,i,Picked limiting gainidx:%d 
-302,i,Picked gainidx:%d  
-301,,Moving up gainidxs to guarantee GLUT count! 
-300,ii,currIndx:%d Updated endPwrIdxGrp:%d 
-299,,BAD CAL TARGETs CONFIGURED for 
-298,ii,Picked max gainidx:%d from group :%d  
-297,,Invalid pick_glut_entry condition! 
-296,,tpccal::Post processing CLPC Caldata 
-294,ii,tpccal::skip gainIdx %d (< thresh %d) 
-295,,tpccal::Post processing CLPC Caldata GTX 
-294,ii,tpccal::skip gainIdx %d (< thresh %d) 
-294,ii,tpccal::skip gainIdx %d (< thresh %d) 
-293,,tpccal::Post processing OLPC Caldata 
-292,,pp OLPC
+245,,tpccal::Sending Caldata to host 
+244,,tpccal::Starting ... 
+243,,TPC Cal message check 
  
-291,iiiii,meaPwr %d tgtPwr %d, bn %d ch %d chn %d, 
+242,ii,tpcCALScheme: %d, phyID %d
  
-290,i,numValidMeas = %d
+241,,tpccal::Completed 
+240,iIIII,tpccal::Got measurement %d from host for Chan %u Chain %u Chain(user) %u Gain %u 
+239,i,skipping slope for gainIdx = %d 
+238,iIIIII,tpccal::Thermoffset %d for Band %u tpcChan %u opcChan[%u] %u  Chain %u 
+237,iiii,Got Power from host Chan %d ,  GainIdx %d , MeasPwr  %d , Read pdadc %d  
+236,ii,Received identical power meas:%d prevMeas:%d .Failing calloop 
+235,iii,Get 10Log(pdadc) prev:%d curr:%d slope:%d 
+234,ii,Get Power meas:%d prevMeas:%d 
+233,iiii, calFail:%d, gainIdx:%d, idxCalPt:%d skipSlope_gtx_bndry:%d 
+232,III,tpccal::Starting tx for Chan %u, Chain %u, Gain %u 
+231,iiiii,Write to tpcCalPostProcResult[%d][%d].olpc.measPwrExt[%d][%d]:%d 
+230,iiiii,Write to tpcCalPostProcResult[%d][%d].olpc.measPwr[%d][%d]:%d 
+229,ii,glutsfilled[%d]:%d 
+314,ii,[TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
+313,i,[ERROR]result: %d 
+312,i,[ERROR]xtal cal ok %d 
+311,i,[ERROR]error setting PMIC fail %d 
+310,i,[ERROR]error readback trim fail %d 
+309,ii,[ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
+308,ii,NEWXTALCALPROCHandler get the trim range min = %d, max = %d
  
-289,iiii,bkof %d bn %d ch %d chn %d
+307,II,[ERROR]pmic trim value higher than max value %x , %x 
+334,iiiiiiii,cust_rxGainCal_dbg: Saving Results for rssiDBr=%d phyId %d, chainIdx %d, PNFdBr %d PNFdBm %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d minCcaThreshold=%d 
+333,,cust_rxGainCal_dbg: Cleared Rxgain Caldata for band 
  
-288,iiii,stPwrIdx %d bn %d ch %d chn %d
+332,i,cust_rxGainCal_dbg: Rxgain Caldata Saved with status %d
  
-287,iiiiiiii,iMeas %d iGainIdx %d tgt %d ch %d chn %d sel pwr %d gIdx %d dac %d
+331,iii,cust_rxGainCal_dbg: Rx Gain cal result Save Failure for phyId %d,Invalid Channel %d chainIdx %d 
+330,,cust_rxGainCal_dbg: GET_INIT 
  
-286,,postProcessingOLPCCALData_gtx 
-285,iiii,BegiN: Band:%d chan:%d startPwrIdxGrp:%d  endPwrIdxGrp:%d  
-284,ii,gtx tgtpwridx:%d , GlutPwrMapGrpNum:%d  
-283,iii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
-280,i,endPwrIdxGrp:%d 
-283,iii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
-280,i,endPwrIdxGrp:%d 
-282,iiii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp3:%d modifiedTarget:%d 
-280,i,endPwrIdxGrp:%d 
-281,iiii,gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp4:%d modifiedTarget:%d 
-280,i,endPwrIdxGrp:%d 
-279,iii,gtx Invalid TPC_GLUT_PWR_MAP_GRP Id ! from Band:%d Chain:%d tgtpwridx:%d 
-278,ii,Sending to host freq2G %d, freq5G %d
+329,,cust_rxGainCal_dbg: GET_CUST_RXGAINCAL_TARGET_PARAMS 
  
-277,iii,Sending to host freq2G %d, freq5G %d, chain %d 
-274,iiii,gain %d pwr %d numChain %d numCalpt %d
+328,,cust_rxGainCal_dbg: SET_CUST_RXGAINCAL_TARGET_PARAMS 
  
-276,IIII,tpccal::Sending to host to look for measurements inChan2G %u, Chan5G %u, ChainMask(User) %u, Gain %u 
-275,iii,Sending to host freq2G %d, freq5G %d, chain %d
+327,,cust_rxGainCal_dbg: Invalid CUST_RXGAINCAL Argument
  
-274,iiii,gain %d pwr %d numChain %d numCalpt %d
+326,iiiiii,rxGainCal:: Starting Rx on phyId %d, is2Ghz %d, Chain %d Chan %d, rxMode %d refISS Level %d 
+325,i,rxGainCal:: Error on chainIdx %d
  
-273,,tpccal::Sending Caldata to host 
-272,,tpccal::Starting ... 
-271,,TPC Cal message check 
+325,i,rxGainCal:: Error on chainIdx %d
  
-270,ii,tpcCALScheme: %d, phyID %d
+324,i,rxGainCal:: Error on chainIdx status %d
  
-269,,tpccal::Completed 
-268,iIIII,tpccal::Got measurement %d from host for Chan %u Chain %u Chain(user) %u Gain %u 
-267,i,skipping slope for gainIdx = %d 
-266,iIIIII,tpccal::Thermoffset %d for Band %u tpcChan %u opcChan[%u] %u  Chain %u 
-265,iiii,Got Power from host Chan %d ,  GainIdx %d , MeasPwr  %d , Read pdadc %d  
-264,ii,Received identical power meas:%d prevMeas:%d .Failing calloop 
-263,iii,Get 10Log(pdadc) prev:%d curr:%d slope:%d 
-262,ii,Get Power meas:%d prevMeas:%d 
-261,iiii, calFail:%d, gainIdx:%d, idxCalPt:%d skipSlope_gtx_bndry:%d 
-260,III,tpccal::Starting tx for Chan %u, Chain %u, Gain %u 
-259,iiiii,Write to tpcCalPostProcResult[%d][%d].olpc.measPwrExt[%d][%d]:%d 
-258,iiiii,Write to tpcCalPostProcResult[%d][%d].olpc.measPwr[%d][%d]:%d 
-257,ii,glutsfilled[%d]:%d 
+323,iiii,cust_rxGainCal_dbg::: Sent to Host status=%d NFdbr=%d NFdbm=%d minccaThreshold=%d 
+322,I,cust_rxGainCal_dbg:: Sent to Host pCmdStream=%p 
+321,iiii,rxGainCal:: CMD_RXGAINCALRSP phyId=%d band=%d refISS=%d bandWidth=%d 
+320,iiii,rxGainCal:: CMD_RXGAINCALRSP chanIdx=%d chainIdx=%d numPackets=%d freq=%d 
+319,ii,rxGainCal:: Host error: phyId %d,  veryFirstRxGainCal %d 
+318,iiiiii,rxGainCal:: Host error: phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d,  rxGainCalState.status %d 
+317,iiiiiiiii,rxGainCal:: rssiDBr=%d Saving Results for phyId %d, chainIdx %d, ChanIdx %d, PNFdBr %d, PNFdBm %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d minCCAThreshold=%d 
+316,iiiiii,rxGainCal:: Saving Results for phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d totalPkt=%d 
+315,,nextLoopRxCal is NULL 
 335,ii,ERROR: ftm_parse_unifiedcmd: dataLen %d is LESS than sizeof(segHdrInfo) %d 
 338,I,tsfOor 0x%x 
 337,IIIIIIII,whal_oor_debug_dump timer_0 L/U 0x%x/0x%x, timer_1 L/U 0x%x/0x%x, timer_2 L/U 0x%x/0x%x, timer_3 L/U 0x%x/0x%x 
@@ -925,11 +925,11 @@ VERSION:537296895
 652,II,RXPCU_R1_DEBUG_RX_MESSAGE_COUNT0 : 0x%x, TXPCU_R0_PHY_ACK_STATUS : 0x%x 
 651,iII,StopPcuReceive on mac:%d, phy on-%x, force_rx_abort-%x 
 650,IIII,Before TXPCU_R1_DEBUG_RX_MESSAGE: COUNT0 0x%x, COUNT1 0x%x, COUNT2 0x%x RXPCU_R1_DEBUG_RX_MESSAGE_COUNT0: 0x%x 
-649,III,whalStopPcuReceive tlv_phy_off_cnt [0x%x] mactx_abort_req_sent [0x%x] phytx_abort_anr_intr [0x%x] 
-648,II,whalStopPcuReceive mactx_abort_req_cnt [0x%x] phytx_abort_ack_cnt [0x%x] 
-647,,Warm reset as PHY_OFF_TIMEOUT happened 
-646,,whalStopPcuReceive: PHY OFF Timeout 
-645,III,WAR for phy-off timeout, gate_ctrl %x, gate_ctrl2 %x, flush_status %x 
+649,iii,whalStopPcuReceive tlv_phy_off_cnt [%d] mactx_abort_req_sent [%d] phytx_abort_anr_intr [%d] 
+648,,whalStopPcuReceive: PHY OFF Timeout 
+647,III,WAR for phy-off timeout, gate_ctrl %x, gate_ctrl2 %x, flush_status %x 
+646,,Warm reset as PHY_OFF_TIMEOUT happened 
+645,,Asserting due to PHY off timeout 
 644,IIII,After TXPCU_R1_DEBUG_RX_MESSAGE: COUNT0 0x%x, COUNT1 0x%x, COUNT2 0x%x RXPCU_R1_DEBUG_RX_MESSAGE_COUNT0: 0x%x 
 643,,whalStopPcuReceive: PHY ON Timeout 
 642,IIII,RXPCU_FSM_STATUS 0/1/2: 0x%x, 0x%x, 0x%x, SFM_R0_AVAILABLE_BUFFERS : 0x%x  
@@ -3269,253 +3269,253 @@ org_rc_mask_null pdev_rc_mask[0]:%x pdev_rc_mask[1]:%x phymode:%d ni_legacy_rate
 2625,IIII,tone out of index: preamble:%x,cbf_bw:%x,pkt_bw:%x, ng:%x 
 2625,IIII,tone out of index: preamble:%x,cbf_bw:%x,pkt_bw:%x, ng:%x 
 2624,IIII,tone out of index: preamble:%x, cbf_bw:%x,pkt_bw:%x, ng:%x 
-2652,III,DFS_DUMPS Rejecting Radar since delta peak values are invalid : dl_delta_peak_match_count=%lu, dl_psidx_diff_match_count=%lu, rf_threshold=%lu
+2626,I,%s
  
-2651,IIi,DFS_DUMPS %s: Rejecting Radar since duration diff %ld is more than %d
+2629,,PHYDBG::Dump::Capture enable clear-Timeout
  
-2650,i,[%d]: dfs is NULL 
-2649,i,[%d]: event is NULL  
-2648,i,DFS_DUMPS Rejecteing as radar injected in non-DFS channel, freq offset=%d 
-2647,iiIIII,
+2628,,PHYDBG DISABLE: HcaHwComponentBbLithium_debug::PHYDBG_disable 
+2627,,PHYDBG disabled
+ 
+2633,iiIiiiiii,DFS_DUMPS ts=%d diff_ts=%d sidx=%i dur=%d chirp=%d det=%d radar_check=%d agc_event=%d rssi=%d  
+2632,iiiii,DFS_DUMPS ts=%d delta_peak=%d delta_diff=%d total_gain=%d is_max_pw=%d  
+2631,iiiii,DFS_DUMP radar summary detection_mode=%d  timestamp=%d pulse_rssi=%d is_chirp=%d sidx=%d
+ 
+2630,iiiiiIiii,DFS_DUMPS ts=%d fft_num=%d radar_check=%d total_gain=%d base_pwr=%d peak_sidx=%i relpwr=%d peak_mag=%d num_str_bins_ib=%d
+ 
+2646,I,PHYDBG LWod 0x%lx
+ 
+2645,I,PHYDBG UWod 0x%lx
+ 
+2634,Ii,%s skipping bank %d
+ 
+2644,I,PHYDBG_CAPTURE_U 0x%lx
+ 
+2643,I,PHYDBG_CAPTURE_L 0x%lx
+ 
+2642,I,PHYDBG_PLAYBACK_U 0x%lx
+ 
+2641,I,PHYDBG_PLAYBACK_L 0x%lx
+ 
+2640,I,PHYDBG_PHYRF_TX_PRE_DESC_WR_1_L 0x%lx
+ 
+2639,I,PHYDBG_WFAX_PHYRF_PHYRF_ACTIVATION_CTRL_L 0x%lx
+ 
+2638,I,PHYDBG_MODE_L 0x%lx
+ 
+2637,I,PHYDBG_TRIGGER_0_L 0x%lx
+ 
+2636,I,PHYDBG_TRIGGER_0_U 0x%lx
+ 
+2635,I,PHYDBG_TRIGGER_1_L 0x%lx
+ 
+2634,Ii,%s skipping bank %d
+ 
+2647,i,PcssIpcRingIRQHandler: PS Mode, ignoring IPC Ring IRQ! phyId:%d 
+2648,i,PcssIpcIRQHandler: PS Mode, ignoring IPC IRQ! phyId:%d 
+2655,ii,DFS_DUMP Dfs0Sighandler pHandle=%d ipc_ring_id=%d
+ 
+2654,ii,DFS_DUMP Dfs1Sighandler pHandle=%d ipc_ring_id=%d
+ 
+2653,ii,DFS_DUMP Dfs2Sighandler pHandle=%d ipc_ring_id=%d
+ 
+2652,,FFT_RAW START 
+ 
+2651,II,FFT_RAW %p 0x%x 
+ 
+2651,II,FFT_RAW %p 0x%x 
+ 
+2651,II,FFT_RAW %p 0x%x 
+ 
+2651,II,FFT_RAW %p 0x%x 
+ 
+2650,,FFT_RAW END 
+ 
+2649,iii,DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
+ 
+2682,III,DFS_DUMPS Rejecting Radar since delta peak values are invalid : dl_delta_peak_match_count=%lu, dl_psidx_diff_match_count=%lu, rf_threshold=%lu
+ 
+2681,IIi,DFS_DUMPS %s: Rejecting Radar since duration diff %ld is more than %d
+ 
+2680,i,[%d]: dfs is NULL 
+2679,i,[%d]: event is NULL  
+2678,i,DFS_DUMPS Rejecteing as radar injected in non-DFS channel, freq offset=%d 
+2677,iiIIII,
 [%d]:PHYERR# = %d ts = %u  diff_ts = %u ppdu_rssi = %u dur = %u
  
-2646,iiiiii,
+2676,iiiiii,
 [%d]: is_hw_chirp = %d segid = %d sidx = %d peak_mag = %d delta_peak = %d 
  
-2645,iiiiIi,
+2675,iiiiIi,
 [%d]: delta_diff = %d agc_total_gain = %d agc_mb_gain = %d radar_subchan_mask = 0x%x pulse_height = %d 
  
-2644,iiiii,
+2674,iiiii,
 [%d]: triggering_agc_event = %d rs_pulse_rssi = %d pri80_inband_power = %d ext80_inband_power = %d 
  
-2643,iIIIII,[%d]:xxxxx ts =%u re.re_dur=%u re.re_rssi =%u diff =%u pl->pl_lastelem.p_time=%llu xxxxx 
-2642,Ii,:chan->ic_flags=0x%x, MHz separation=%d
+2673,iIIIII,[%d]:xxxxx ts =%u re.re_dur=%u re.re_rssi =%u diff =%u pl->pl_lastelem.p_time=%llu xxxxx 
+2672,Ii,:chan->ic_flags=0x%x, MHz separation=%d
  
-2641,iii,: Peak Idx =%d,re.re_dur =%d,diff_ts =%d
+2671,iii,: Peak Idx =%d,re.re_dur =%d,diff_ts =%d
  
-2640,,
+2670,,
 : Modify pulse dur to fit valid range 
  
-2639,Ii,
+2669,Ii,
 :chan->ic_flags=0x%x,MHz Separation=%d
  
-2638,iii,:Peak Index =%d,re.re_dur =%d,diff_ts =%d
+2668,iii,:Peak Index =%d,re.re_dur =%d,diff_ts =%d
  
-2637,,:Modify ETSI pulse dur to valid range 
+2667,,:Modify ETSI pulse dur to valid range 
  
-2636,,DFS_DUMPS found bin5 radar
+2666,,DFS_DUMPS found bin5 radar
  
-2635,iII,[%d]: Rejecting on rssi rssi=%u thresh=%u 
-2634,ii,DFS_DUMPS Rejecting pulses on rssi rssi=%d, thresh=%d
+2665,iII,[%d]: Rejecting on rssi rssi=%u thresh=%u 
+2664,ii,DFS_DUMPS Rejecting pulses on rssi rssi=%d, thresh=%d
  
-2633,iII,[%d]:Rejecting on pri pri=%lld minpri=%u 
-2632,iiII,[%d]:filterID= %d::Rejecting on individual filter min PRI deltaT=%lld rf->rf_minpri=%u 
-2631,iiII,[%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
-2631,iiII,[%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
-2630,iiii,[%d]:### Found on channel minDur = %d, filterId = %d  seg_id = %d ### 
-2629,iiii,DFS_DUMPS Radar Found with Filter Id = %d min dur=%d sidx=%d freq_offset=%d
+2663,iII,[%d]:Rejecting on pri pri=%lld minpri=%u 
+2662,iiII,[%d]:filterID= %d::Rejecting on individual filter min PRI deltaT=%lld rf->rf_minpri=%u 
+2661,iiII,[%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
+2661,iiII,[%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
+2660,iiii,[%d]:### Found on channel minDur = %d, filterId = %d  seg_id = %d ### 
+2659,iiii,DFS_DUMPS Radar Found with Filter Id = %d min dur=%d sidx=%d freq_offset=%d
  
-2628,ii,CHANNEL_CLOSE radarevent g_dfs_test_mode=%d  event_data.detection_mode=%d
+2658,ii,CHANNEL_CLOSE radarevent g_dfs_test_mode=%d  event_data.detection_mode=%d
  
-2627,iiii,[%d]:### RADAR FOUND ON CHANNEL %d (%d MHz),seg_id=%d ### 
-2626,i,DFS_DEBUGS false_radar dfs->dfs_seq_num =%d
+2657,iiii,[%d]:### RADAR FOUND ON CHANNEL %d (%d MHz),seg_id=%d ### 
+2656,i,DFS_DEBUGS false_radar dfs->dfs_seq_num =%d
  
-2659,ii,DFS_DUMP Dfs0Sighandler pHandle=%d ipc_ring_id=%d
+2685,i,g_setXlnaBypassForILNA set to %d 
+2684,I,EnableDssWarCFO: enable 0x%x
  
-2658,ii,DFS_DUMP Dfs1Sighandler pHandle=%d ipc_ring_id=%d
+2683,I,SetDssWarCFODeltaThreshold: threshold 0x%x
  
-2657,ii,DFS_DUMP Dfs2Sighandler pHandle=%d ipc_ring_id=%d
+2686,iii,DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element phyId=%d ipc_ring_id=%d num_bufs=%d
  
-2656,,FFT_RAW START 
+2687,iii,SSCAN: BinIndices scanMode %d isChan165 %d, pCfg.ScanRptMode: %d 
+2697,iiiI,overwrite BMPS sleep ANI from %d to 5, combdl %d WeakLow %d rxtd_rssi_thr_l 0x%08x 
+2696,iII,ANI_DUMP_PHYID%d DISABLED ANI RXTD_RSSI_THR_L=0x%08x RXTD_RSSI_THR_U=0x%x 
  
-2655,II,FFT_RAW %p 0x%x 
+2695,iiii,SetAniOfdmDL: is2GHz %d isBypassXlnaInListen %d isUseXlna %d level %d 
+2694,,Override ANI to 5 according to XLNAbypass state 
+2693,iiiiI,SetAniOfdmDL: is2GHz %d ANI %d combdl %d WeakLow %d RXTD_RSSI_THR_L_VREG 0x%08x 
+2692,i,Current WeakLo State : %d 
+2691,i,Updating WeakLo State : %d 
+2690,i,MAC in Sleep WeakLo State : %d 
+2689,i,WeakLo State remains the same : %d 
+2688,iII,ANI_LOG UpdateReg: level = %d, ANI_SETTINGS1 = 0x%08x, ANI_SETTINGS2 = 0x%08x
  
-2655,II,FFT_RAW %p 0x%x 
+2742,ii,DssControl: Warning: Return with no-effect. phyId %d, synth_control=%d 
+2741,ii,DssControl: phyId %d, enable %d 
+2740,iiii,EnableOCL: enable=%d listen_chain=%d backoff=%d FOR PHYID %d 
+2739,II,WsiSanitize: AON_RO_TESTREG_read2 0x%08X RF_BUS_ERR_B0_read5 0x%08X 
+2738,IIIIII,WsiSanitize: wsiDebug RFACTRL Regs 0x%08x  0x%08x  0x%08x  0x%08x  0x%08x  0x%08x 
+2737,iIi,PostProgInit: phyID %d, resetCause 0x%x, homeChan %d
  
-2655,II,FFT_RAW %p 0x%x 
+2736,Ii,PostProgInit: gain_thr=%u low_gain=%d 
+2860,i,M3 did not boot up rc = %d, ASSERT 
+2735,Ii,PerformPhyOff: q6_to_m3_ipc_address=%x q6_to_m3_ipc=%d 
+2734,Ii,PerformPhyOff: isNotDone=%x, loopCount=%d 
+2733,ii,PerformPhyOff: MAC|PHYID=%d WFAX_PCSS_VR_Q6_TO_M3_10_L=%d 
+2732,Ii,SetPowerFeatMask: Set Power Mask to %x FOR PHYID %d 
  
-2655,II,FFT_RAW %p 0x%x 
+2731,iiiiii,SetXOPowerMode Done: phyId %d, valid=%d, wakeup=%d, imps=%d, lp_xo=%d, curr_xo_state_lp=%d 
+2730,i,ANI_DUMP_PHYID%d SAVE ANI DEFAULTS 
  
-2654,,FFT_RAW END 
+2729,II,CPU: CH0 VCM_TRACK_Q_EVEN:%x, Q_ODD:%x 
+2728,II,CPU: CH1 VCM_TRACK_Q_EVEN:%x, Q_ODD:%x 
+2727,II,CPU: CH0 VCM_TRACK_I_EVEN:%x, I_ODD:%x 
+2726,II,CPU: CH1 VCM_TRACK_I_EVEN:%x, I_ODD:%x 
+2725,IIIIII,AVGCFO Print: delta_time %x, cur_cfo %x, old_cfo %x, new_cfo %x, %x, program to phy %x 
+2724,,OverrideGtcGainMax: Error Cannot Access Register in Sleep - return 
+2723,ii,enable_override_gtcgain_max %d enable %d 
+2722,iIiiiiiii,ResetPhyInputCommon: phyId %d/%x band %d bw %d phMode %d mhz %d freq %d/%d dynPriChan %d
  
-2653,iii,DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
+2721,IiiIi,ResetPhyInputCommon: txCM %x conc %d rxCM %d, isSBS %x cur_tbl_idx %d
  
-2660,i,PcssIpcIRQHandler: PS Mode, ignoring IPC IRQ! phyId:%d 
-2661,I,%s
+2720,iiI,ResetPhyInputCommon: rssiDbToDbmOffset %d, pwrMask %d, loadIniMask 0x%x
  
-2664,,PHYDBG::Dump::Capture enable clear-Timeout
+2719,iIIiiiii,RetentionSetChannel: phyId %d txCM 0x%x rxCM 0x%x wakeup %d imps %d fullsave %d homechan %d  cur_tbl_idx %d 
+2718,iiiiI,RetentionSetChannel: chan %d freq1 %d freq2 %d phy_mode %d flags 0x%x 
+2717,iii,RetentionSetChannel: phyId %d, IMPS %d, Sleep %d, is ignored by debug knob 
+2716,iiiiiiiii,RetentionSetChannel: Profile PHYID=%d SLEEP=%d IMPS=%d, RETINI=%d RESET=%d CAL=%d TPC=%d TOT=%d PF=%d 
+2715,,RetentionSetChannel: DPD wal_lock is 1 in sleep, ASSERT 
+2714,iiI,WritePcssM3Register: phyId: %d pcssM3reg: %d pcssM3RegValue: 0x%x 
+2713,,Error Cannot Access Register in Sleep, return 
+2712,i,DSS disabled for channel %d 
+2711,iii,ChangeChainMaskBbAdditional: INImask %d txcm=%d rxcm=%d 
+2710,iii,DeInit: PHY is in sleep state (valid %d wakeup %d imps %d), do not program any regs... return 
+2709,i,DeInit: curr_xo_state_lp %d, already in LP mode 
+2708,,adc_vcm_check_flag is Good!! 
+2707,,FastReset triger vreg is 0 set ucode rest 
+2706,,FastReset triger vreg is 2, set ucode reset 
+2705,I,FastReset triger vreg is %x 
+2704,,FastReset reset vreg is 2 set to 0 
+2703,ii,WarmReset MAC|PHYID=%d CF_ACTIVE=%d 
+2698,iii,doing WarmReset | phyid=%d | ind_bitmap=%d | reason=%d 
+2702,i,WarmReset Cause = Ucode |phyid = %d 
  
-2663,,PHYDBG DISABLE: HcaHwComponentBbLithium_debug::PHYDBG_disable 
-2662,,PHYDBG disabled
+2701,i,WarmReset Cause = MAC |phyid = %d 
  
-2665,i,PcssIpcRingIRQHandler: PS Mode, ignoring IPC Ring IRQ! phyId:%d 
-2669,iiIiiiiii,DFS_DUMPS ts=%d diff_ts=%d sidx=%i dur=%d chirp=%d det=%d radar_check=%d agc_event=%d rssi=%d  
-2668,iiiii,DFS_DUMPS ts=%d delta_peak=%d delta_diff=%d total_gain=%d is_max_pw=%d  
-2667,iiiii,DFS_DUMP radar summary detection_mode=%d  timestamp=%d pulse_rssi=%d is_chirp=%d sidx=%d
+2700,Ii,WarmReset Cause = 0x%x|phyid = %d 
  
-2666,iiiiiIiii,DFS_DUMPS ts=%d fft_num=%d radar_check=%d total_gain=%d base_pwr=%d peak_sidx=%i relpwr=%d peak_mag=%d num_str_bins_ib=%d
- 
-2682,I,PHYDBG LWod 0x%lx
- 
-2681,I,PHYDBG UWod 0x%lx
- 
-2670,Ii,%s skipping bank %d
- 
-2680,I,PHYDBG_CAPTURE_U 0x%lx
- 
-2679,I,PHYDBG_CAPTURE_L 0x%lx
- 
-2678,I,PHYDBG_PLAYBACK_U 0x%lx
- 
-2677,I,PHYDBG_PLAYBACK_L 0x%lx
- 
-2676,I,PHYDBG_PHYRF_TX_PRE_DESC_WR_1_L 0x%lx
- 
-2675,I,PHYDBG_WFAX_PHYRF_PHYRF_ACTIVATION_CTRL_L 0x%lx
- 
-2674,I,PHYDBG_MODE_L 0x%lx
- 
-2673,I,PHYDBG_TRIGGER_0_L 0x%lx
- 
-2672,I,PHYDBG_TRIGGER_0_U 0x%lx
- 
-2671,I,PHYDBG_TRIGGER_1_L 0x%lx
- 
-2670,Ii,%s skipping bank %d
- 
-2692,iiiI,overwrite BMPS sleep ANI from %d to 5, combdl %d WeakLow %d rxtd_rssi_thr_l 0x%08x 
-2691,iII,ANI_DUMP_PHYID%d DISABLED ANI RXTD_RSSI_THR_L=0x%08x RXTD_RSSI_THR_U=0x%x 
- 
-2690,iiii,SetAniOfdmDL: is2GHz %d isBypassXlnaInListen %d isUseXlna %d level %d 
-2689,,Override ANI to 5 according to XLNAbypass state 
-2688,iiiiI,SetAniOfdmDL: is2GHz %d ANI %d combdl %d WeakLow %d RXTD_RSSI_THR_L_VREG 0x%08x 
-2687,i,Current WeakLo State : %d 
-2686,i,Updating WeakLo State : %d 
-2685,i,MAC in Sleep WeakLo State : %d 
-2684,i,WeakLo State remains the same : %d 
-2683,iII,ANI_LOG UpdateReg: level = %d, ANI_SETTINGS1 = 0x%08x, ANI_SETTINGS2 = 0x%08x
- 
-2728,,ERROR: Received Null Pointer buffer argument in ANI Reg Dump. Returning without filling buffer with the dump 
-2727,,ERROR: Received Null Pointer buffer argument in DPD Reg Dump. Returning without filling buffer with the dump 
-2726,,ERROR: Received Null Pointer buffer argument in TPC Reg Dump. Returning without filling buffer with the dump 
-2725,,ERROR: Received Null Pointer buffer argument in RXIQ Reg Dump. Returning without filling buffer with the dump 
-2724,,ERROR: Received Null Pointer buffer argument in RXTD Reg Dump. Returning without filling buffer with the dump 
-2723,,ERROR: Received Null Pointer buffer argument in TXIQ Reg Dump. Returning without filling buffer with the dump 
-2722,,ERROR: Received Null Pointer buffer argument in PKDET Reg Dump. Returning without filling buffer with the dump 
-2721,,ERROR: Received Null Pointer buffer argument in RXDCO Reg Dump. Returning without filling buffer with the dump 
-2720,,ERROR: Received Null Pointer buffer argument in Radar Reg Dump. Returning without filling buffer with the dump 
-2719,,ERROR: Received Null Pointer buffer argument in NF Reg Dump. Returning without filling buffer with the dump 
-2718,,ERROR: Received Null Pointer buffer argument in SS Reg Dump. Returning without filling buffer with the dump 
-2717,,ERROR: Received Null Pointer arguments 
-2716,I,REG DUMP: Started Selective PHY REGs store to buffer: 0x%08x 
-2715,i, length of the reg dump= %d 
+2699,i,Incorrect phyId %d 
+2698,iii,doing WarmReset | phyid=%d | ind_bitmap=%d | reason=%d 
+2778,,ERROR: Received Null Pointer buffer argument in ANI Reg Dump. Returning without filling buffer with the dump 
+2777,,ERROR: Received Null Pointer buffer argument in DPD Reg Dump. Returning without filling buffer with the dump 
+2776,,ERROR: Received Null Pointer buffer argument in TPC Reg Dump. Returning without filling buffer with the dump 
+2775,,ERROR: Received Null Pointer buffer argument in RXIQ Reg Dump. Returning without filling buffer with the dump 
+2774,,ERROR: Received Null Pointer buffer argument in RXTD Reg Dump. Returning without filling buffer with the dump 
+2773,,ERROR: Received Null Pointer buffer argument in TXIQ Reg Dump. Returning without filling buffer with the dump 
+2772,,ERROR: Received Null Pointer buffer argument in PKDET Reg Dump. Returning without filling buffer with the dump 
+2771,,ERROR: Received Null Pointer buffer argument in RXDCO Reg Dump. Returning without filling buffer with the dump 
+2770,,ERROR: Received Null Pointer buffer argument in Radar Reg Dump. Returning without filling buffer with the dump 
+2769,,ERROR: Received Null Pointer buffer argument in NF Reg Dump. Returning without filling buffer with the dump 
+2768,,ERROR: Received Null Pointer buffer argument in SS Reg Dump. Returning without filling buffer with the dump 
+2767,,ERROR: Received Null Pointer arguments 
+2766,I,REG DUMP: Started Selective PHY REGs store to buffer: 0x%08x 
+2765,i, length of the reg dump= %d 
 421,,Dummy case statements 
 420,,Add case statments to log the registers 
-2714,i,g_dump_tpc_regs_enable %d 
-2713,iII,PHYDBG: PHYID = %d DBG_CLK_EN = %x in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON = %x in WFAX_PHYRF_PHYDBG_MODE_L 
+2764,i,g_dump_tpc_regs_enable %d 
+2763,iII,PHYDBG: PHYID = %d DBG_CLK_EN = %x in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON = %x in WFAX_PHYRF_PHYDBG_MODE_L 
  
-2712,,PHYDBG: Disabled DBG_CLK_EN in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON in WFAX_PHYRF_PHYDBG_MODE_L 
+2762,,PHYDBG: Disabled DBG_CLK_EN in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON in WFAX_PHYRF_PHYDBG_MODE_L 
  
-2711,,PHYDBG: PHYDBG is Fully Disabled!
+2761,,PHYDBG: PHYDBG is Fully Disabled!
  
-2710,IIIIIIII,PrintPhyRfRegisters: LATEST_FWD_L_B0 = 0x%08x, LATEST_FWD_L_B1 = 0x%08x, LATEST_LB_L_B0 = 0x%08x, LATEST_LB_L_B1 = 0x%08x, TPC_GEN_CTRL_L = 0x%08x, TPC_CLPC_CTRL_0_L = 0x%08x, LATEST_TXGAIN_L_B0 = 0x%08x, LATEST_TXGAIN_L_B1 = 0x%08x 
-2709,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RO_TPC_FB_12_STAT_B0 = 0x%08x, 5G_CH1_RO_TPC_FB_12_STAT_B0 = 0x%08x, 2G_CH0_RO_TPC_FB_12_STAT_B0 = 0x%08x, 2G_CH1_RO_TPC_FB_12_STAT_B0 = 0x%08x, 5G_CH0_TPC_OVERRIDE_3 = 0x%08x, 5G_CH1_TPC_OVERRIDE_3 = 0x%08x, 2G_CH0_TPC_OVERRIDE_3 = 0x%08x, 2G_CH1_TPC_OVERRIDE_3 = 0x%08x 
-2708,IIIIIIII,PrintPhyRfRegisters: PAPRD_CTRL_L_B0 = 0x%08x, PAPRD_TABLE_TYPE_L_B0 = 0x%08x, PAPRD_VALID_GAIN_L_B0 = 0x%08x, PAPRD_VALID_GAIN_U_B0 = 0x%08x, PAPRD_CTRL_L_B1 = 0x%08x, PAPRD_TABLE_TYPE_L_B1 = 0x%08x, PAPRD_VALID_GAIN_L_B1 = 0x%08x, PAPRD_VALID_GAIN_U_B1 = 0x%08x 
-2707,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RO_RX_GAIN = 0x%08x, 5G_CH1_RO_RX_GAIN = 0x%08x, 2G_CH0_RO_RX_GAIN = 0x%08x, 2G_CH1_RO_RX_GAIN = 0x%08x, 5G_CH0_RO_TX_GAIN_1 = 0x%08x, 5G_CH1_RO_TX_GAIN_1 = 0x%08x, 2G_CH0_RO_TX_GAIN_1 = 0x%08x, 2G_CH1_RO_TX_GAIN_1 = 0x%08x 
-2706,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RO_TX_DCOC = 0x%08x, 5G_CH1_RO_TX_DCOC = 0x%08x, 5G_CH0_TX_DCOC_OV_0 = 0x%08x, 5G_CH1_TX_DCOC_OV_0 = 0x%08x, 2G_CH0_RO_TX_DCOC = 0x%08x, 2G_CH1_RO_TX_DCOC = 0x%08x, 2G_CH0_TX_DCOC_OV_0 = 0x%08x, 2G_CH1_TX_DCOC_OV_0 = 0x%08x 
-2705,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RX_DCOC_OV_0 = 0x%08x, 5G_CH1_RX_DCOC_OV_0 = 0x%08x, 5G_CH0_RO_RX_DCOC = 0x%08x, 5G_CH1_RO_RX_DCOC = 0x%08x, 2G_CH0_RX_DCOC_OV_0 = 0x%08x, 2G_CH1_RX_DCOC_OV_0 = 0x%08x, 2G_CH0_RO_RX_DCOC = 0x%08x, 2G_CH1_RO_RX_DCOC = 0x%08x 
-2704,IIIIIIII,PrintPhyRfRegisters: RXIQ_CORR_COEFF_MEM_L_B1_0 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_1 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_2 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_3 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_4 = 0x%08x, 2RXIQ_CORR_COEFF_MEM_L_B1_5 = 0x%08x, RXCORR_CTRL_0_U = 0x%08x, RXCORR_CTRL_1_L = 0x%08x 
-2703,IIIIII,PrintPhyRfRegisters: TXIQCORR_MEM_L_B0_0 = 0x%08x, TXIQCORR_MEM_L_B0_1 = 0x%08x, TXIQCORR_MEM_L_B0_2 = 0x%08x, TXIQCORR_MEM_L_B0_3 = 0x%08x, TXIQCORR_MEM_L_B0_4 = 0x%08x, TXIQCORR_MEM_L_B0_5 = 0x%08x 
-2702,IIIIII,PrintPhyRfRegisters: TXIQCORR_MEM_L_B1_0 = 0x%08x, TXIQCORR_MEM_L_B1_1 = 0x%08x, TXIQCORR_MEM_L_B1_2 = 0x%08x, TXIQCORR_MEM_L_B1_3 = 0x%08x, TXIQCORR_MEM_L_B1_4 = 0x%08x, TXIQCORR_MEM_L_B1_5 = 0x%08x 
-2701,IIIIIIII,PrintPhyRfRegisters: TXBB_CH0_CH_BW_AC0 = 0x%08x, TXBB_CH1_CH_BW_AC0 = 0x%08x, TXBB_CH0_CH_BW_AC1 = 0x%08x, TXBB_CH1_CH_BW_AC1 = 0x%08x, TXBB_CH0_CH_BW_AC2 = 0x%08x, TXBB_CH1_CH_BW_AC2 = 0x%08x, TXBB_CH0_LUT_OV0 = 0x%08x, TXBB_CH1_LUT_OV0 = 0x%08x 
-2700,IIIIIIII,PrintPhyRfRegisters: TXBB_CH0_RTUNE = 0x%08x, TXBB_CH1_RTUNE = 0x%08x, TXFE_5G_CH0_LUT_OV0 = 0x%08x, TXFE_5G_CH1_LUT_OV0 = 0x%08x, TXFE_2G_CH0_LUT_OV0 = 0x%08x, TXFE_2G_CH1_LUT_OV0 = 0x%08x, RXBB_CH0_CH_BW_AC = 0x%08x, RXBB_CH1_CH_BW_AC = 0x%08x 
-2699,IIIIIIII,PrintPhyRfRegisters: RXBB_CH0_TIA_LUT_0 = 0x%08x, RXBB_CH1_TIA_LUT_0 = 0x%08x, RXBB_CH0_TIA = 0x%08x, RXBB_CH1_TIA = 0x%08x, RXBB_CH0_BQ = 0x%08x, RXBB_CH1_BQ = 0x%08x, RXBB_CH0_BQ_LUT_0 = 0x%08x, RXBB_CH1_BQ_LUT_0 = 0x%08x 
-2698,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_WL_RXFE_OV1 = 0x%08x, 5G_CH1_WL_RXFE_OV1 = 0x%08x, 2G_CH0_WL_RXFE_OV1 = 0x%08x, 2G_CH1_WL_RXFE_OV1 = 0x%08x, 5G_CH0_AGC_CAL_0 = 0x%08x, 5G_CH1_AGC_CAL_0 = 0x%08x, 2G_CH0_AGC_CAL_0 = 0x%08x, 2G_CH1_AGC_CAL_0 = 0x%08x 
-2697,IIII,PrintPhyRfRegisters: 5G_CH0_W_RXFE_CONTROL2 = 0x%08x, 5G_CH1_W_RXFE_CONTROL2 = 0x%08x, 2G_CH0_W_RXFE_CONTROL2 = 0x%08x, 2G_CH1_W_RXFE_CONTROL2 = 0x%08x 
-2696,IIIIII,PrintPhyRfRegisters:IMP_CTRL_L = 0x%08x, RSSI_THR_L = 0x%08x , CMD_COUNT_TXGAIN_L_B0 = 0x%08x, CMD_COUNT_TXGAIN_L_B1 = 0x%08x, AGC_NFCAL_CHN_CONFIG3_0_L_B0 = 0x%08x, AGC_NFCAL_CHN_CONFIG3_0_L_B1 = 0x%08x 
-2695,IIIIIIII,PrintPhyRfRegisters:AON_BAND_CH0 = 0x%08x, AON_BAND_CH1 = 0x%08x , AGC_SRCH_CTRL_1_L = 0x%08x, AON_SYSCTRL_0 = 0x%08x, AON_SYSCTRL_1 = 0x%08x, AON_SYSCTRL_2 = 0x%08x, SYNTH_SWITCH_CTRL_L = 0x%08x, OCL_CONFIG_0_L = 0x%08x 
-2694,I,PrintPhyRfRegisters:DYN_HW_STATUS_0_U = 0x%08x  
-2693,, Invalid Power state  
-2730,i,PHY M3 Assert for PHY : %d
+2760,IIIIIIII,PrintPhyRfRegisters: LATEST_FWD_L_B0 = 0x%08x, LATEST_FWD_L_B1 = 0x%08x, LATEST_LB_L_B0 = 0x%08x, LATEST_LB_L_B1 = 0x%08x, TPC_GEN_CTRL_L = 0x%08x, TPC_CLPC_CTRL_0_L = 0x%08x, LATEST_TXGAIN_L_B0 = 0x%08x, LATEST_TXGAIN_L_B1 = 0x%08x 
+2759,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RO_TPC_FB_12_STAT_B0 = 0x%08x, 5G_CH1_RO_TPC_FB_12_STAT_B0 = 0x%08x, 2G_CH0_RO_TPC_FB_12_STAT_B0 = 0x%08x, 2G_CH1_RO_TPC_FB_12_STAT_B0 = 0x%08x, 5G_CH0_TPC_OVERRIDE_3 = 0x%08x, 5G_CH1_TPC_OVERRIDE_3 = 0x%08x, 2G_CH0_TPC_OVERRIDE_3 = 0x%08x, 2G_CH1_TPC_OVERRIDE_3 = 0x%08x 
+2758,IIIIIIII,PrintPhyRfRegisters: PAPRD_CTRL_L_B0 = 0x%08x, PAPRD_TABLE_TYPE_L_B0 = 0x%08x, PAPRD_VALID_GAIN_L_B0 = 0x%08x, PAPRD_VALID_GAIN_U_B0 = 0x%08x, PAPRD_CTRL_L_B1 = 0x%08x, PAPRD_TABLE_TYPE_L_B1 = 0x%08x, PAPRD_VALID_GAIN_L_B1 = 0x%08x, PAPRD_VALID_GAIN_U_B1 = 0x%08x 
+2757,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RO_RX_GAIN = 0x%08x, 5G_CH1_RO_RX_GAIN = 0x%08x, 2G_CH0_RO_RX_GAIN = 0x%08x, 2G_CH1_RO_RX_GAIN = 0x%08x, 5G_CH0_RO_TX_GAIN_1 = 0x%08x, 5G_CH1_RO_TX_GAIN_1 = 0x%08x, 2G_CH0_RO_TX_GAIN_1 = 0x%08x, 2G_CH1_RO_TX_GAIN_1 = 0x%08x 
+2756,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RO_TX_DCOC = 0x%08x, 5G_CH1_RO_TX_DCOC = 0x%08x, 5G_CH0_TX_DCOC_OV_0 = 0x%08x, 5G_CH1_TX_DCOC_OV_0 = 0x%08x, 2G_CH0_RO_TX_DCOC = 0x%08x, 2G_CH1_RO_TX_DCOC = 0x%08x, 2G_CH0_TX_DCOC_OV_0 = 0x%08x, 2G_CH1_TX_DCOC_OV_0 = 0x%08x 
+2755,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_RX_DCOC_OV_0 = 0x%08x, 5G_CH1_RX_DCOC_OV_0 = 0x%08x, 5G_CH0_RO_RX_DCOC = 0x%08x, 5G_CH1_RO_RX_DCOC = 0x%08x, 2G_CH0_RX_DCOC_OV_0 = 0x%08x, 2G_CH1_RX_DCOC_OV_0 = 0x%08x, 2G_CH0_RO_RX_DCOC = 0x%08x, 2G_CH1_RO_RX_DCOC = 0x%08x 
+2754,IIIIIIII,PrintPhyRfRegisters: RXIQ_CORR_COEFF_MEM_L_B1_0 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_1 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_2 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_3 = 0x%08x, RXIQ_CORR_COEFF_MEM_L_B1_4 = 0x%08x, 2RXIQ_CORR_COEFF_MEM_L_B1_5 = 0x%08x, RXCORR_CTRL_0_U = 0x%08x, RXCORR_CTRL_1_L = 0x%08x 
+2753,IIIIII,PrintPhyRfRegisters: TXIQCORR_MEM_L_B0_0 = 0x%08x, TXIQCORR_MEM_L_B0_1 = 0x%08x, TXIQCORR_MEM_L_B0_2 = 0x%08x, TXIQCORR_MEM_L_B0_3 = 0x%08x, TXIQCORR_MEM_L_B0_4 = 0x%08x, TXIQCORR_MEM_L_B0_5 = 0x%08x 
+2752,IIIIII,PrintPhyRfRegisters: TXIQCORR_MEM_L_B1_0 = 0x%08x, TXIQCORR_MEM_L_B1_1 = 0x%08x, TXIQCORR_MEM_L_B1_2 = 0x%08x, TXIQCORR_MEM_L_B1_3 = 0x%08x, TXIQCORR_MEM_L_B1_4 = 0x%08x, TXIQCORR_MEM_L_B1_5 = 0x%08x 
+2751,IIIIIIII,PrintPhyRfRegisters: TXBB_CH0_CH_BW_AC0 = 0x%08x, TXBB_CH1_CH_BW_AC0 = 0x%08x, TXBB_CH0_CH_BW_AC1 = 0x%08x, TXBB_CH1_CH_BW_AC1 = 0x%08x, TXBB_CH0_CH_BW_AC2 = 0x%08x, TXBB_CH1_CH_BW_AC2 = 0x%08x, TXBB_CH0_LUT_OV0 = 0x%08x, TXBB_CH1_LUT_OV0 = 0x%08x 
+2750,IIIIIIII,PrintPhyRfRegisters: TXBB_CH0_RTUNE = 0x%08x, TXBB_CH1_RTUNE = 0x%08x, TXFE_5G_CH0_LUT_OV0 = 0x%08x, TXFE_5G_CH1_LUT_OV0 = 0x%08x, TXFE_2G_CH0_LUT_OV0 = 0x%08x, TXFE_2G_CH1_LUT_OV0 = 0x%08x, RXBB_CH0_CH_BW_AC = 0x%08x, RXBB_CH1_CH_BW_AC = 0x%08x 
+2749,IIIIIIII,PrintPhyRfRegisters: RXBB_CH0_TIA_LUT_0 = 0x%08x, RXBB_CH1_TIA_LUT_0 = 0x%08x, RXBB_CH0_TIA = 0x%08x, RXBB_CH1_TIA = 0x%08x, RXBB_CH0_BQ = 0x%08x, RXBB_CH1_BQ = 0x%08x, RXBB_CH0_BQ_LUT_0 = 0x%08x, RXBB_CH1_BQ_LUT_0 = 0x%08x 
+2748,IIIIIIII,PrintPhyRfRegisters: 5G_CH0_WL_RXFE_OV1 = 0x%08x, 5G_CH1_WL_RXFE_OV1 = 0x%08x, 2G_CH0_WL_RXFE_OV1 = 0x%08x, 2G_CH1_WL_RXFE_OV1 = 0x%08x, 5G_CH0_AGC_CAL_0 = 0x%08x, 5G_CH1_AGC_CAL_0 = 0x%08x, 2G_CH0_AGC_CAL_0 = 0x%08x, 2G_CH1_AGC_CAL_0 = 0x%08x 
+2747,IIII,PrintPhyRfRegisters: 5G_CH0_W_RXFE_CONTROL2 = 0x%08x, 5G_CH1_W_RXFE_CONTROL2 = 0x%08x, 2G_CH0_W_RXFE_CONTROL2 = 0x%08x, 2G_CH1_W_RXFE_CONTROL2 = 0x%08x 
+2746,IIIIII,PrintPhyRfRegisters:IMP_CTRL_L = 0x%08x, RSSI_THR_L = 0x%08x , CMD_COUNT_TXGAIN_L_B0 = 0x%08x, CMD_COUNT_TXGAIN_L_B1 = 0x%08x, AGC_NFCAL_CHN_CONFIG3_0_L_B0 = 0x%08x, AGC_NFCAL_CHN_CONFIG3_0_L_B1 = 0x%08x 
+2745,IIIIIIII,PrintPhyRfRegisters:AON_BAND_CH0 = 0x%08x, AON_BAND_CH1 = 0x%08x , AGC_SRCH_CTRL_1_L = 0x%08x, AON_SYSCTRL_0 = 0x%08x, AON_SYSCTRL_1 = 0x%08x, AON_SYSCTRL_2 = 0x%08x, SYNTH_SWITCH_CTRL_L = 0x%08x, OCL_CONFIG_0_L = 0x%08x 
+2744,I,PrintPhyRfRegisters:DYN_HW_STATUS_0_U = 0x%08x  
+2743,, Invalid Power state  
+2779,,160 spur cof updated 
+2781,i,PHY M3 Assert for PHY : %d
  
-2729,IIII,%c%c%c%c 
-2732,I,PAPRD: UCODE VREG WAR enabled , vReg %x 
-2731,ii,PCSS Version : Branch = %d, Build ID = %d  
-2730,i,PHY M3 Assert for PHY : %d
+2780,IIII,%c%c%c%c 
+2783,I,PAPRD: UCODE VREG WAR enabled , vReg %x 
+2782,ii,PCSS Version : Branch = %d, Build ID = %d  
+2781,i,PHY M3 Assert for PHY : %d
  
-2729,IIII,%c%c%c%c 
-2729,IIII,%c%c%c%c 
-2729,IIII,%c%c%c%c 
-2729,IIII,%c%c%c%c 
-2729,IIII,%c%c%c%c 
-2729,IIII,%c%c%c%c 
-2729,IIII,%c%c%c%c 
-2729,IIII,%c%c%c%c 
-2735,i,g_setXlnaBypassForILNA set to %d 
-2734,I,EnableDssWarCFO: enable 0x%x
- 
-2733,I,SetDssWarCFODeltaThreshold: threshold 0x%x
- 
-2780,ii,DssControl: Warning: Return with no-effect. phyId %d, synth_control=%d 
-2779,ii,DssControl: phyId %d, enable %d 
-2778,iiii,EnableOCL: enable=%d listen_chain=%d backoff=%d FOR PHYID %d 
-2777,II,WsiSanitize: AON_RO_TESTREG_read2 0x%08X RF_BUS_ERR_B0_read5 0x%08X 
-2776,IIIIII,WsiSanitize: wsiDebug RFACTRL Regs 0x%08x  0x%08x  0x%08x  0x%08x  0x%08x  0x%08x 
-2775,iIi,PostProgInit: phyID %d, resetCause 0x%x, homeChan %d
- 
-2774,Ii,PostProgInit: gain_thr=%u low_gain=%d 
-2860,i,M3 did not boot up rc = %d, ASSERT 
-2773,Ii,PerformPhyOff: q6_to_m3_ipc_address=%x q6_to_m3_ipc=%d 
-2772,Ii,PerformPhyOff: isNotDone=%x, loopCount=%d 
-2771,ii,PerformPhyOff: MAC|PHYID=%d WFAX_PCSS_VR_Q6_TO_M3_10_L=%d 
-2770,Ii,SetPowerFeatMask: Set Power Mask to %x FOR PHYID %d 
- 
-2769,iiiiii,SetXOPowerMode Done: phyId %d, valid=%d, wakeup=%d, imps=%d, lp_xo=%d, curr_xo_state_lp=%d 
-2768,i,ANI_DUMP_PHYID%d SAVE ANI DEFAULTS 
- 
-2767,II,CPU: CH0 VCM_TRACK_Q_EVEN:%x, Q_ODD:%x 
-2766,II,CPU: CH1 VCM_TRACK_Q_EVEN:%x, Q_ODD:%x 
-2765,II,CPU: CH0 VCM_TRACK_I_EVEN:%x, I_ODD:%x 
-2764,II,CPU: CH1 VCM_TRACK_I_EVEN:%x, I_ODD:%x 
-2763,IIIIII,AVGCFO Print: delta_time %x, cur_cfo %x, old_cfo %x, new_cfo %x, %x, program to phy %x 
-2762,,OverrideGtcGainMax: Error Cannot Access Register in Sleep - return 
-2761,ii,enable_override_gtcgain_max %d enable %d 
-2760,iIiiiiiii,ResetPhyInputCommon: phyId %d/%x band %d bw %d phMode %d mhz %d freq %d/%d dynPriChan %d
- 
-2759,IiiIi,ResetPhyInputCommon: txCM %x conc %d rxCM %d, isSBS %x cur_tbl_idx %d
- 
-2758,iiI,ResetPhyInputCommon: rssiDbToDbmOffset %d, pwrMask %d, loadIniMask 0x%x
- 
-2757,iIIiiiii,RetentionSetChannel: phyId %d txCM 0x%x rxCM 0x%x wakeup %d imps %d fullsave %d homechan %d  cur_tbl_idx %d 
-2756,iiiiI,RetentionSetChannel: chan %d freq1 %d freq2 %d phy_mode %d flags 0x%x 
-2755,iii,RetentionSetChannel: phyId %d, IMPS %d, Sleep %d, is ignored by debug knob 
-2754,iiiiiiiii,RetentionSetChannel: Profile PHYID=%d SLEEP=%d IMPS=%d, RETINI=%d RESET=%d CAL=%d TPC=%d TOT=%d PF=%d 
-2753,,RetentionSetChannel: DPD wal_lock is 1 in sleep, ASSERT 
-2752,iiI,WritePcssM3Register: phyId: %d pcssM3reg: %d pcssM3RegValue: 0x%x 
-2751,,Error Cannot Access Register in Sleep, return 
-2750,i,DSS disabled for channel %d 
-2749,iii,ChangeChainMaskBbAdditional: INImask %d txcm=%d rxcm=%d 
-2748,iii,DeInit: PHY is in sleep state (valid %d wakeup %d imps %d), do not program any regs... return 
-2747,i,DeInit: curr_xo_state_lp %d, already in LP mode 
-2746,,adc_vcm_check_flag is Good!! 
-2745,,FastReset triger vreg is 0 set ucode rest 
-2744,,FastReset triger vreg is 2, set ucode reset 
-2743,I,FastReset triger vreg is %x 
-2742,,FastReset reset vreg is 2 set to 0 
-2741,ii,WarmReset MAC|PHYID=%d CF_ACTIVE=%d 
-2736,iii,doing WarmReset | phyid=%d | ind_bitmap=%d | reason=%d 
-2740,i,WarmReset Cause = Ucode |phyid = %d 
- 
-2739,i,WarmReset Cause = MAC |phyid = %d 
- 
-2738,Ii,WarmReset Cause = 0x%x|phyid = %d 
- 
-2737,i,Incorrect phyId %d 
-2736,iii,doing WarmReset | phyid=%d | ind_bitmap=%d | reason=%d 
-2781,,160 spur cof updated 
-2782,iii,SSCAN: BinIndices scanMode %d isChan165 %d, pCfg.ScanRptMode: %d 
-2783,iii,DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element phyId=%d ipc_ring_id=%d num_bufs=%d
- 
+2780,IIII,%c%c%c%c 
+2780,IIII,%c%c%c%c 
+2780,IIII,%c%c%c%c 
+2780,IIII,%c%c%c%c 
+2780,IIII,%c%c%c%c 
+2780,IIII,%c%c%c%c 
+2780,IIII,%c%c%c%c 
+2780,IIII,%c%c%c%c 
 2811,II,PDL_CAL_FUNC: func=phyADCCal calCmdId=0x%x RC=0x%x
  
 2810,I,PDL_CAL_FUNC: func=phyADCCal calCmdId=NULL RC=0x%x
@@ -11396,456 +11396,456 @@ seanl==> -----------------------------------------------
  
 9224,I,AON_LDO_REFGEN_WL_TXRXLO_2G=0x%08x 
 9223,I,AON_LDO_REFGEN_WL_TXRXLO_5G=0x%08x 
-9285,i,HcaHwComponentTrxMoselle_tpc hybridBias %d 
-9284,II,HcaHwComponentTrxMoselle_tpc tpc_flag %x exouple = %x 
-9283,II,TPC_DBG:EnableCLPC (Moselle) clpc thresh in alutGen %x out %x 
-9282,iii,[TempComp]HcaHwComponentTrxMoselle_tpc::chainIdx=%d, thermCalValue=%d, alphaTherm=%d 
-9281,i,HcaHwComponentTrxMoselle_tpc::EnableCLPC=%d 
-9280,iiiiiiii,txBBF_RFALDO_glutSS = %d xtal_enable = %d ppmOffset_At30C = %d ppmOffset_At85C = %d ppmOffset_At100C = %d, ppmOffset_TpTh30C = %d, ppmOffset_TpTh80C = %d, ppmOffset_TpTh100 = %d 
-9279,i,ov_rel0:%d 
-9278,iIIII,DumpTpcRegisters: phyId %d, PrimaryChan %u, SecondaryChan %u, txChainMask %u, rxChainMask %u 
-9277,iiiiiii,DumpTpcRegisters: Home Chan = %d, RF Mode = %d, Pwr Mask = %d, Phy Mode = %d, GLUT_DAC_GAIN_CAL = %d, CMD_COUNT_TXGAIN_COUNT_B0 = %d, CMD_COUNT_TXGAIN_COUNT_B1 =%d 
-9276,iIiiiii,DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B0 = 0x%0x, LATEST_TARGET_PWR_B0 = %d, LATEST_DAC_GAIN_B0 = %d, LATEST_TXGAIN_IDX_B0 = %d, LATEST_GLUT_IDX_B0 = %d, LATEST_TX_IQ_IDX_B0 = %d 
-9275,iIiiiii,DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B1 = 0x%0x, LATEST_TARGET_PWR_B1 = %d, LATEST_DAC_GAIN_B1 = %d, LATEST_TXGAIN_IDX_B1 = %d, LATEST_GLUT_IDX_B1 = %d, LATEST_TX_IQ_IDX_B1 = %d 
-9274,iIiii,DumpTpcRegisters: phyId = %d, LATEST_LB_L_B0 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B0 = %d, LATEST_CLPC_ERR_B0 = %d, LATEST_MEAS_PWR_OUT_B0 = %d 
-9273,iIiii,DumpTpcRegisters: phyId = %d, LATEST_LB_L_B1 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B1 = %d, LATEST_CLPC_ERR_B1 = %d, LATEST_MEAS_PWR_OUT_B1 = %d 
-9272,iIIII,DumpTpcRegisters: phyId = %d, 2G_TPC_FB_12_STAT_B0 = 0x%0x, 2G_TPC_FB_12_STAT_B1 = 0x%0x, 5G_TPC_FB_12_STAT_B0 = 0x%0x, 5G_TPC_FB_12_STAT_B1 = 0x%0x 
-9271,iIiiIii,DumpTpcRegisters: phyId = %d, TPC_GEN_CTRL_L = 0x%0x, OLPC_MODE = %d, TARGET_PWR_CLPC_THR_CORR = %d; TPC_CLPC_CTRL = 0x%0x, CLPC_ERR_UPDATE_DIS = %d, MASK_OUT_CLPC_ERR_UPDATE = %d 
-9270,iIiiIii,DumpTpcRegisters: phyId = %d, TPC_CHN_STAT_LATEST_TXGAIN_L_B0 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B0 = %d, LATEST_WSI_TPC_ATTEN_B0 = %d; TPC_CHN_STAT_LATEST_TXGAIN_L_B1 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B1 = %d, LATEST_WSI_TPC_ATTEN_B1 = %d 
-9269,iii,force glut: chain%d, gainindex%d: dacgain=%d
- 
-9268,iI,OPC: phyId:%d state 0x%x 
-9267,i, GetLatestThermValue :%d 
-9266,iiiiiii, bHomeChan %d txchainmask %d txChainMaskPrv[phyId][currentTalIdx] %d freq1 %d freq2 %d resetCause %d RetentionIMPS %d 
-9265,iiiii,phyId %d CurTalIdx %d previousChan_freq1 %d previous_TalTdx %d previousChan_freq1 %d 
-9264,iii,calFlagOut %d firstHomeChan2 %d,%d 
-9263,I,commonBoardFlags %x 
-9262,ii,[2G]twoPointReturn.pwrAtPdadc ch%d: %d 
-9261,ii,[5G]twoPointReturn.pwrAtPdadc ch%d: %d 
-9260,ii,[6G]twoPointReturn.pwrAtPdadc ch%d: %d 
-9259,i, GetLatestAccumulatedCLPCError :%d 
-9258,i, GetLatestAccumulatedCLPCErrorPerChain :%d 
-9257,iIIIII,DumpTpcLuts: phyId %d, PrimaryChan %u, SecondaryChan %u, dumpMask=%u  txChainMask %u, rxChainMask %u 
-9256,IIIIIIII,DumpTpcLuts: GLUT: tpcTblIdx %3u |  tpcChainIdx %3u | tpcGainIdx %3u | pwrMeas %3d | minDacGain %3d | txGainIdx %3d | clpcError %3d | tpcClPktCnt %3d 
-9255,IIIIIIIII,DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcPlutIdx %3u | pdadc[%3u-%3u] HEX:%8x | pdadc[%3u-%3u] HEX:%8x | 
-9254,IIIIIIIII,DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcAlutIdx %3u | Alut tgtPwr Step [%3u-%3u] HEX:%8x | Alut tgtPwr Step [%3u-%3u]  HEX:%8x 
-9253,IiIi,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_1 (0x%08x) | PD_DC_SEL= %d 
-9252,IiIii,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_1 (0x%08x) | PDET_GAIN_IDX_OVS %d | FE_XPA_RF_DISCONNECT_OVS %d 
-9251,IiII,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_3 (0x%08x) 0x%08x 
-9250,IiIi,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_8_B0 (0x%08x) | PDADC_BIAS= %d 
-9249,i,TPC_DUMP_BDF : DUMP BDF GLUT FOR FREQ=%d 
-9246,i,TPC-DUMP_BDF calFreqPier2G=%d 
-9245,i,TPC-DUMP_BDF calFreqPier5G=%d 
-9248,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
-9248,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
-9247,i,TPC_DUMP_BDF_PLUT : DUMP BDF PLUT FOR FREQ=%d 
-9246,i,TPC-DUMP_BDF calFreqPier2G=%d 
-9245,i,TPC-DUMP_BDF calFreqPier5G=%d 
-9244,i,TPC_DUMP_BDF : DUMP BDF CLPC FOR FREQ=%d 
-9243,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
-9243,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
-9242,II,TPC_DUMP_RATEARRAY : ratesArray[%u] = 0x%x 
-9241,II,TPC_DUMP_RATEARRAY : ratesArray2[%u] = 0x%x 
-9240,iiiiiii,tpc glut chainIdx:%d channel:%d glutIdxEnd:%d i:%d txGainIdx:%d measPwr:%d minDacGain:%d 
-9302,I,XTAL CAL_SetXtalCalCWTone: enableFlag = %x 
-9301,i,XTAL_CAL - CWgain_index = %d 
-9300,i,XTAL_CAL clear - gainIdx4XtalCal = %d 
-9299,iiI,XTAL_CAL: SET - Reg_values, chain = %d, idx = %d, value = 0x%x
- 
-9298,iI,XTAL_CAL: middle- Reg_values, chain = %d, value = 0x%x
- 
-9298,iI,XTAL_CAL: middle- Reg_values, chain = %d, value = 0x%x
- 
-9297,iiI,XTAL_CAL: Restore - Reg_values, chain = %d, idx = %d, value = 0x%x
- 
-9296,iiI,XTAL_CAL_MAP: Clear - Reg_values, chain = %d, idx = %d, value = 0x%x
- 
-9295,iII,XtalCal::sign_flag=%d,  ppm(0.5 unit) = %x value = %x 
- 
-9294,iii,PPM WAR: halphy_bdf_GetXtalCalValue: capin=%d, capout=%d offsetPPM = %d 
-9293,ii,PPM WAR:: Entering AdjustXtalForLongPkt: capin=%d, capout=%d 
-9292,iiii,PPM WAR:: delta = %d, loop %d,  residue=%d, STEPSIZE=%d 
-9291,ii,PPM WAR : CAPIN %d CAPOUT %d 
-9290,iii,PPM WAR:: AdjustXtalCAPValue -> bdf::: CAPIN %d CAPOUT %d, offsetPPM %d 
-9289,i,PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
-9289,i,PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
-9288,iii,PPM WAR :: %d us used for updating CAPIN %d CAPOUT %d
- 
-9287,iii,PPM WAR:: AdjustXtalCAPValue::: incoming adjusted ppm X = %d real adjusted ppm Y = %d, (X - Y) = %d 
-9286,,OTPPatch failed!!! 
-3485,,Do not have access to masterCalDb or localCalDb, failed to restore DPD 
-9385,i,paprd_restore : finalCase %d 
-3485,,Do not have access to masterCalDb or localCalDb, failed to restore DPD 
-9384,i,DPD Memory : paprd_restore : finalCase %d 
-9383,i, ********* halphy_mem_paprd_edpd_ctrl paprdType %d  
-9364,i, WoW Entry mode, update caldb(return) chainmask %d  
-9363,I,Error: %s Invalid DPD table address 
-9363,I,Error: %s Invalid DPD table address 
-9382,iiI, Channel %d  chain (%d) caldb_addr dpdStart 0x%8x Memory DPD  
-9381,iiiiii,halphyPaprdTableIndexRangeGet: curChan %d cur_tbl_idx %d edpd_gtx_enable %d isMccActive %d dpd_tbl_start_idx %d dpd_tbl_end_idx %d 
-9380,iiI,(1)paprdType %d Untrained tables: chain %d, training_done 0x%02x 
-9379,iiI,paprdType %d Untrained tables: chain %d, training_done_table 0x%02x 
-9378,iiI,halphyPaprdCheckCalibrationFailure: dpd_tbl_start_idx %d dpd_tbl_end_idx %d mask 0x%x 
-9377,i,halphyPaprdCheckCalibrationFailure : max_retry %d 
-9376,iiiI,halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask 0x%02x 
-9375,iiiI,halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask 0x%02X 
-9374,iiii,halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d retry_dpd %d 
-9373,iiI,halphyPaprdUpdateUntrainedTable_eDPD: dpd_tbl_start_idx %d dpd_tbl_end_idx %d mask 0x%x 
-9372,iII,halphyPaprdUpdateUntrainedTable_eDPD: chain_index %d training_done_table 0x%02x training_done 0x%02x 
-9371,i,halphyPaprdUpdateUntrainedTable_eDPD: PAPRD table index %d; skipping chain 
-9370,iiiIi,(1)paprdType %d Untrained tables: chain %d, tableIndex %d training_done_table 0x%02X firstPass %d 
-9369,iii,halphyPaprdUpdateUntrainedTable_eDPD: firstPass %d chain_index %d tableIndex %d,  
-9368,II,halphyPaprdUpdateUntrainedTable_eDPD: validBits 0x%02x mask 0x%02x 
-9367,iI,NEW VALID BITS Untrained tables: chain %d, training_done_table 0x%02X 
-9364,i, WoW Entry mode, update caldb(return) chainmask %d  
-9363,I,Error: %s Invalid DPD table address 
-9363,I,Error: %s Invalid DPD table address 
-9363,I,Error: %s Invalid DPD table address 
-9363,I,Error: %s Invalid DPD table address 
-9366,iiII, Channel %d  chain (%d) caldb_addr dpdStart 0x%8x dpdCtrlStart 0x%8x  
-9365,i, ********* halphy_mem_paprd_device_update_caldb_addr paprdType %d 
-9364,i, WoW Entry mode, update caldb(return) chainmask %d  
-9363,I,Error: %s Invalid DPD table address 
-9363,I,Error: %s Invalid DPD table address 
-9363,I,Error: %s Invalid DPD table address 
-9363,I,Error: %s Invalid DPD table address 
-9362,iiII, Channel %d chain %d memPaprdCoeff 0x%08x memPaprdCtrl 0x%08x  Memory DPD  
-9361,ii,HwComponentTrxMoselle_paprd::FtmControl : channel %d dpd_enable %d 
- 
-9360,iii,StorePaprd: paprdType %d chain %d table %d 
-9359,,lDPD: StorePaprd WoW Entry mode, return 
-9358,,Memory DPD :  Beginning of memory StorePaprd  
-9357,, eDPD: StorePaprd WoW Entry mode, (return) 
-9356,iiII,StorePaprd: DPD_MEMORY: dpd_tbl_start_idx %d dpd_tbl_end_idx %d validBits 0x%02x mask 0x%02x 
-9355,iiI,StorePaprd: DPD_MEMORY: txChain %d tableIndex %d updated validBits 0x%x 
-9354,,Memory DPD :  end of memory StorePaprd  
-9304,i,PAPRD ResetParams phyExtn = %d
- 
-9353,,PHY INCATIVE : retrun 
-9322,iii,PAPRD PHY ID %d GetDPDEnable() DPD enable (lDPD %d eDPD %d) 
-9352,i,RestorePaprd : caltype %d  
-9329,,alloc mem fail 
-9329,,alloc mem fail 
-9351,i, ReStorePaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
-9350,iI,RestorePaprd (DPD_MEMORYLESS): chain %d Cal valid bits 0x%02X  
-9349,,*********** RestorePaprd : DPD_MEMORY  
-9348,,PAPRD ProcessMemDPD 
-9347,,StoreMemPaprd Entry 
-9346,iiI,StoreMemPaprd: dpd_tbl_start_idx %d dpd_tbl_end_idx %d mask 0x%02X 
-9345,, StoreMemPaprd WoW Entry mode, StorePaprd (return) paprdType   
-9344,iiII,StoreMemPaprd: txChain %d tableIndex %d updated validBits 0x%x training_done_table 0x%x 
-9343,ii, chain %d dpdPostScalingValue %d 
-9342,iii, chain %d table %d dpdWarmPktDacGain %d 
-9341,iii, chain %d table %d dpdGMGlutIdx %d 
-9342,iii, chain %d table %d dpdWarmPktDacGain %d 
-9341,iii, chain %d table %d dpdGMGlutIdx %d 
-9340,, Greener Tx with eDPD is NOT supported for 2.4GHz band, disabling it by force 
-9339,iii, chain %d table %d ldpdTrainingDacGain %d 
-9339,iii, chain %d table %d ldpdTrainingDacGain %d 
-9338,i,ValidateCalDb : Invalid caltype %d  
-9337,ii, ValidateCalDb WoW Entry mode, ValidateCALDB(return) paprdType %d  chainmask %d  
-9336,ii, halphyDPDValidateCalDB paprdType %d  chainmask %d,  
-9335,i, CALIBRATION COMPLETE  chain %d, result 1 
-9334,iiii, halphyPaprdValidateCalibration calattempts %d %d, validBits %d %d 
-9333,ii, halphyPaprdValidateCalibration results[0] %d [1] %d 
-9332,iii,PAPRD phy_core_set_paprd_enable : enable %d ldpd %d edpd %d
- 
-9331,i,eDPD sq fail. sq val %d  
-9330,i,eDPD hw fail. sq val %d  
-9329,,alloc mem fail 
-9329,,alloc mem fail 
-9328,i,RestoreMemPaprd : Invalid caltype %d  
-9327,iii,*********** RestoreMemPaprd : caltype %d channel %d paprdType %d 
-9326,i, RestoreMemPaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
-9325,iI,RestoreMemPaprd: chain %d Cal valid bits 0x%02X 
-9324,ii, NMSE Check failed %d %d 
-9323,iii, NMSE Check %d %d %d 
-9322,iii,PAPRD PHY ID %d GetDPDEnable() DPD enable (lDPD %d eDPD %d) 
-9321,ii,PAPRD PHY ID %d SetPaprdSyncReset not required enable %d 
-9320,i,PAPRD Calibration complete %d 
-9319,iiii,Channel Context :(before BG processing)  workingChannel %d txChainMask  %d  phyrfMode %d  WoW Mode %d 
-9318,iiiii,PAPRD PHY ID %d start %d end %d chan start %d chan end %d 
- 
-9317,iii, postProcessingConfig  %d, valid chain mask %d paprdType %d 
-9316,ii,PAPRDTUNING: SETTING - LoopBack Attn | Glut %d Value %d
- 
-9315,ii,PAPRDTUNING: SETTING - Timing Delay | Glut %d Value %d
- 
-9314,iiiii,ChangeTrainingIndex: cur_tbl_idx %d edpd_gtx_enable %d isMccActive %d dpd_tbl_start_idx %d dpd_tbl_end_idx %d 
-9313,i,ChangeTrainingIndex: PAPRD table index %d; skipping chain 
-9312,iiii,ChangeTrainingIndex: paprdType %d tx_gain_idx %d chain %d tableIndex %d  
-9311,iiii,PAPRDTUNING: Channel %d chainIdx %d glutIdx %d gainIdx %d
- 
-9310,,PAPRD Calibration complete 
-9309,i,Memoryless DPD Restore : Control  paprdType %d 
-9308,i,Memory DPD Restore : Control  paprdType %d 
-9307,iii,phy_paprd_device_PopulatePaprdTables : chain %d tableIndex %d paprdType %d 
-9306,i, PAPRD: XmitTrainingFrame failed. Status %d 
- 
-9305,i, PAPRD: XmitTrainingFrame tx_count %d
- 
-9304,i,PAPRD ResetParams phyExtn = %d
- 
-9303,I,PAPRD:HcaHwComponentTrxMoselle_paprd::HwDisable : PhyBase %8x 
- 
-9387,IIIII,GDSC_STATUS returned 0xDEADC0DE! wsi0stats: 0x%x, wsi2stats: 0x%x, wsistats: 0x%x, BusMatrixCfg: 0x%x,BusMatrixstats: 0x%x 
-9386,iiiIi,cg %d cf %d i2 %d ts %ld fsg %d 
-9398,ii,HcaHwComponentTrxMoselle_efuse::ReadPerRfa %d, %d 
-9397,II,HcaHwComponentTrxMoselle_efuse::WritePerRfa 0x%x, 0x%x 
-9396,ii,HcaHwComponentTrxMoselle_efuse::WritePerRfa::XO cdacin %d, cdacout %d 
-3080,,Error: pHandle is NULL 
-9395,i,eFuse read fail %d 
-9394,III,efuseR[%x] ->address [0x%lX] Value 0x%lx 
-9393,II,Error: buffer is out of bounds. offset = %lu, numBytes = %lu
- 
-9390,I,WLAON_WL_AON_REG_REG_BASE: p:0x%x 
-9389,I,WLAON_WL_AON_REG_REG_BASE: a:0x%x 
-9392,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: p:0x%x 
-9391,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: a:0x%x 
-9392,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: p:0x%x 
-9391,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: a:0x%x 
-9392,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: p:0x%x 
-9391,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: a:0x%x 
-9390,I,WLAON_WL_AON_REG_REG_BASE: p:0x%x 
-9389,I,WLAON_WL_AON_REG_REG_BASE: a:0x%x 
-9388,II,Error: %lu/%lu bytes were not written to eFuse correctly.
- 
-9399,iii,EnableHwDtimSlna: phyId = %d, chain = %d, SLNA_CTRL = %d 
-9410,,cal DB file received is NULL. Need Re-calibration 
-9409,,checkSum of CalDB Failed. Need Re-calibration 
-9408,iiii,At PDR/SSR Temperature delta is greater than 25, hence cold boot cal is required -> TempDelta = %d, Downloaded cal Temp = %d, current_temperaure[%d] = %d 
-9407,,At PDR/SSR Temperature delta is less than 25, hence using downloaded cal data 
-9406,,ERROR : cal DB received is NULL 
-9405,ii, Warning: tempBin file incorrect size, %d should be >= %d
- 
-9404,i,data retrieved from host. fileSize = %d 
- 
-9403,i,TrxHastingPrime-RSSI:%d 
-9402,,NULL point error 
-9401,,NF Cal isn't completed. No NF value. 
-9400,iI,Not support chain %d, nfType=0x%x 
 3080,,Error: pHandle is NULL 
 3079,i,Error: phyId %d is INVALID 
-9443,i,GetSAR1RUIdx Idx %d 
-9442,iii,tpcOnepointCal:: GetAlphaTherm pEeprom->baseBdfHeader.commonBoardFlags = %d chainIdx = %d channel = %d 
-9441,iii,tpcOnepointCal:: GetAlphaTherm channel %d alphaThermFreq[iAlphaThermFreq] %d chosenChannelIdx %d 
-9440,IIIIIII,tpcOnepointCal:: chosen phyId %u alphaThermFreq[%u] %u curChan %u curChain %u tempIdx %u alphaThermValue %u 
-9439,iiiiii,GetBWRUSARSet ActiveSARSET %d SARSetMask %d MaskValue %d RU_set %d SU_set %d BW_RU_SET_FLAG %d  
-9439,iiiiii,GetBWRUSARSet ActiveSARSET %d SARSetMask %d MaskValue %d RU_set %d SU_set %d BW_RU_SET_FLAG %d  
-9438,i,GetSAR1RateIdx Idx %d 
-9437,IIIII,g_gtx_cfg: gtxTPCstep 0x%x gtxTPCstepDown 0x%x  gtxTPCMinCck 0x%x gtxTPCMin5G 0x%x gtxMACEnable 0x%x 
+9240,iii,EnableHwDtimSlna: phyId = %d, chain = %d, SLNA_CTRL = %d 
+9273,i,GetSAR1RUIdx Idx %d 
+9272,iii,tpcOnepointCal:: GetAlphaTherm pEeprom->baseBdfHeader.commonBoardFlags = %d chainIdx = %d channel = %d 
+9271,iii,tpcOnepointCal:: GetAlphaTherm channel %d alphaThermFreq[iAlphaThermFreq] %d chosenChannelIdx %d 
+9270,IIIIIII,tpcOnepointCal:: chosen phyId %u alphaThermFreq[%u] %u curChan %u curChain %u tempIdx %u alphaThermValue %u 
+9269,iiiiii,GetBWRUSARSet ActiveSARSET %d SARSetMask %d MaskValue %d RU_set %d SU_set %d BW_RU_SET_FLAG %d  
+9269,iiiiii,GetBWRUSARSet ActiveSARSET %d SARSetMask %d MaskValue %d RU_set %d SU_set %d BW_RU_SET_FLAG %d  
+9268,i,GetSAR1RateIdx Idx %d 
+9267,IIIII,g_gtx_cfg: gtxTPCstep 0x%x gtxTPCstepDown 0x%x  gtxTPCMinCck 0x%x gtxTPCMin5G 0x%x gtxMACEnable 0x%x 
  
-9436,iiiiii,AddSAR1LimitTPC is2GHz %d rate %d sarLimitIdx %d chainMask %d SARSetFinal[0] %d SARSetFinal[1] %d 
-9435,iiiiii,AddSAR1LimitTPC 2G pow0 %d pow1 %d SARSetFinal[CHAIN0_IDX]%d SARSetFinal[CHAIN0_IDX]:%d CM %d rtIdx %d  
-9434,iiiiii,AddSAR1LimitTPC 5G pow0 %d pow1 %d SARSetFinal[CHAIN0_IDX]%d SARSetFinal[CHAIN0_IDX]:%d CM %d rtIdx %d  
-9433,iiiiii,AddSAR1LimitTPC 6G pow0 %d pow1 %d SARSetFinal[CHAIN0_IDX]%d SARSetFinal[CHAIN0_IDX]:%d CM %d rtIdx %d  
-9432,i,6G CTL powerMode = %d 
-9431,iiii,GetOCLrssithresh:: OCLrssithresh_Low : %d OCLrssithresh_High : %d Rssi Offset : %d nf_dbm : %d 
-9430,ii,DumpTpcPerPacket: Get CTL pwr = good chain: %d sec chain: %d 
+9266,iiiiii,AddSAR1LimitTPC is2GHz %d rate %d sarLimitIdx %d chainMask %d SARSetFinal[0] %d SARSetFinal[1] %d 
+9265,iiiiii,AddSAR1LimitTPC 2G pow0 %d pow1 %d SARSetFinal[CHAIN0_IDX]%d SARSetFinal[CHAIN0_IDX]:%d CM %d rtIdx %d  
+9264,iiiiii,AddSAR1LimitTPC 5G pow0 %d pow1 %d SARSetFinal[CHAIN0_IDX]%d SARSetFinal[CHAIN0_IDX]:%d CM %d rtIdx %d  
+9263,iiiiii,AddSAR1LimitTPC 6G pow0 %d pow1 %d SARSetFinal[CHAIN0_IDX]%d SARSetFinal[CHAIN0_IDX]:%d CM %d rtIdx %d  
+9262,i,6G CTL powerMode = %d 
+9261,iiii,GetOCLrssithresh:: OCLrssithresh_Low : %d OCLrssithresh_High : %d Rssi Offset : %d nf_dbm : %d 
+9260,ii,DumpTpcPerPacket: Get CTL pwr = good chain: %d sec chain: %d 
  
-9429,I,halphy_bdf_ModifyBdfOtpFlags: disableOTPOnePtCal 0x%x 
-9428,,XLNA routine triggered for ANI switch in iLNA device 
-9427,iiiiii,GetSAR1TableValues is2G %d chan %d chan_bin_2G %d regDmn %d regDmnIdx %d numSARValidSets%d 
-9426,iiiiii,GetSAR1TableValues is2G %d chan %d chan_bin_5G %d regDmn %d regDmnIdx %d numSARValidSets%d 
-9425,iiiiii,GetSAR1TableValues is2G %d chan %d chan_bin_6G %d regDmn %d regDmnIdx %d numSARValidSets%d 
-9424,i,CTL6G Value %d
+9259,I,halphy_bdf_ModifyBdfOtpFlags: disableOTPOnePtCal 0x%x 
+9258,,XLNA routine triggered for ANI switch in iLNA device 
+9257,iiiiii,GetSAR1TableValues is2G %d chan %d chan_bin_2G %d regDmn %d regDmnIdx %d numSARValidSets%d 
+9256,iiiiii,GetSAR1TableValues is2G %d chan %d chan_bin_5G %d regDmn %d regDmnIdx %d numSARValidSets%d 
+9255,iiiiii,GetSAR1TableValues is2G %d chan %d chan_bin_6G %d regDmn %d regDmnIdx %d numSARValidSets%d 
+9254,i,CTL6G Value %d
  
-9423,IIIIIi,tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointThermOffset %d 
-9422,ii,DumpTpcPerPacket: target power: chain1: %d chain2: %d
+9253,IIIIIi,tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointThermOffset %d 
+9252,ii,DumpTpcPerPacket: target power: chain1: %d chain2: %d
  
-9421,iiiii,DumpTpc: before maxRegDef p1 bdf val: %d, user antenna gain: 2G: %d - 5G: %d, twiceAntennaGain (max of BDF and user): %d, twiceAntennaReduction: %d,  
-9420,iiiii,DumpTpc: before maxRegDef powerLimit: %d, userMaxPowerx2: %d, twiceMaxRD: %d, twiceLargestAntenna %d, lowest power: %d 
-9419,,DumpTpc: Reg Power update not supported as part of set Tx power as we have new WMI 
-9418,iiiii,DumpTpc: after maxRegDef default reg pwr: %d pTpcConfig->maxRegAllowedPower[%d]: %d, twiceMultiChainGain[%d]: %d 
-9417,IIIIIi,tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointTpcGLUTOffset %d 
-9416,iiii,DumpTpcPerPacket: Get regulatory pwr EIRP: %d, is PSD: %d, New regdb WMI call: %d, curr_BW:%d 
+9251,iiiii,DumpTpc: before maxRegDef p1 bdf val: %d, user antenna gain: 2G: %d - 5G: %d, twiceAntennaGain (max of BDF and user): %d, twiceAntennaReduction: %d,  
+9250,iiiii,DumpTpc: before maxRegDef powerLimit: %d, userMaxPowerx2: %d, twiceMaxRD: %d, twiceLargestAntenna %d, lowest power: %d 
+9249,,DumpTpc: Reg Power update not supported as part of set Tx power as we have new WMI 
+9248,iiiii,DumpTpc: after maxRegDef default reg pwr: %d pTpcConfig->maxRegAllowedPower[%d]: %d, twiceMultiChainGain[%d]: %d 
+9247,IIIIIi,tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointTpcGLUTOffset %d 
+9246,iiii,DumpTpcPerPacket: Get regulatory pwr EIRP: %d, is PSD: %d, New regdb WMI call: %d, curr_BW:%d 
  
-9415,iiiii,DumpTpcPerPacket: Get regulatory Final combined power : %d CurrBW: %d, isValidTxPwr: %d, is2GHz %d tx_power: %d
+9245,iiiii,DumpTpcPerPacket: Get regulatory Final combined power : %d CurrBW: %d, isValidTxPwr: %d, is2GHz %d tx_power: %d
  
-9414,ii,DumpTpcPerPacket: Get regulatory pwr = good chain: %d sec chain: %d 
+9244,ii,DumpTpcPerPacket: Get regulatory pwr = good chain: %d sec chain: %d 
  
-9413,iii,rssiOffset=%d, bdf_rssiffset=%d, total rssi offset=%d 
-9412,iii,GetXlnaInListenRssiThreshold:: pResetStruct->homeChannelBw[0] %d pModal->bypassXlnaILRSSIThrLo %d, pModal->bypassXlnaILRSSIThrHi %d 
-9411,iii,GetXlnaInListenRssiThreshold:: Threshold : %d Rssi Offset : %d nf_dbm : %d 
-9444,,IM2CAL:  completed 
-9447,,CalSM: ADC starts 
-9446,ii,calSmTIADC: do calibration is6G %d tableIdx %d 
-9445,ii,calSmTIADC: do restoration is6G %d tableIdx %d 
-9470,i,ITER2CMDIDX  iterIdx 		=%d 
-9469,i,FC_HANDLE  finalCase 		=%d 
-9468,,RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal in DTIM 
-9467,,RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL in DTIM 
-9466,,RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
-9465,,RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
-9464,,RXDCO FC_HANDLE: BTC_CALLBACK_NULL and CAL disabled 
-9463,ii,FC_HANDLE  finalCase before switch statement=%d, localrxDcoValid=%d 
-9462,,RXDCO ::: CAL_RESTORE convertNewRxdcoLutfromCalDb failed
+9243,iii,rssiOffset=%d, bdf_rssiffset=%d, total rssi offset=%d 
+9242,iii,GetXlnaInListenRssiThreshold:: pResetStruct->homeChannelBw[0] %d pModal->bypassXlnaILRSSIThrLo %d, pModal->bypassXlnaILRSSIThrHi %d 
+9241,iii,GetXlnaInListenRssiThreshold:: Threshold : %d Rssi Offset : %d nf_dbm : %d 
+3485,,Do not have access to masterCalDb or localCalDb, failed to restore DPD 
+9356,i,paprd_restore : finalCase %d 
+3485,,Do not have access to masterCalDb or localCalDb, failed to restore DPD 
+9355,i,DPD Memory : paprd_restore : finalCase %d 
+9354,i, ********* halphy_mem_paprd_edpd_ctrl paprdType %d  
+9335,i, WoW Entry mode, update caldb(return) chainmask %d  
+9334,I,Error: %s Invalid DPD table address 
+9334,I,Error: %s Invalid DPD table address 
+9353,iiI, Channel %d  chain (%d) caldb_addr dpdStart 0x%8x Memory DPD  
+9352,iiiiii,halphyPaprdTableIndexRangeGet: curChan %d cur_tbl_idx %d edpd_gtx_enable %d isMccActive %d dpd_tbl_start_idx %d dpd_tbl_end_idx %d 
+9351,iiI,(1)paprdType %d Untrained tables: chain %d, training_done 0x%02x 
+9350,iiI,paprdType %d Untrained tables: chain %d, training_done_table 0x%02x 
+9349,iiI,halphyPaprdCheckCalibrationFailure: dpd_tbl_start_idx %d dpd_tbl_end_idx %d mask 0x%x 
+9348,i,halphyPaprdCheckCalibrationFailure : max_retry %d 
+9347,iiiI,halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask 0x%02x 
+9346,iiiI,halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask 0x%02X 
+9345,iiii,halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d retry_dpd %d 
+9344,iiI,halphyPaprdUpdateUntrainedTable_eDPD: dpd_tbl_start_idx %d dpd_tbl_end_idx %d mask 0x%x 
+9343,iII,halphyPaprdUpdateUntrainedTable_eDPD: chain_index %d training_done_table 0x%02x training_done 0x%02x 
+9342,i,halphyPaprdUpdateUntrainedTable_eDPD: PAPRD table index %d; skipping chain 
+9341,iiiIi,(1)paprdType %d Untrained tables: chain %d, tableIndex %d training_done_table 0x%02X firstPass %d 
+9340,iii,halphyPaprdUpdateUntrainedTable_eDPD: firstPass %d chain_index %d tableIndex %d,  
+9339,II,halphyPaprdUpdateUntrainedTable_eDPD: validBits 0x%02x mask 0x%02x 
+9338,iI,NEW VALID BITS Untrained tables: chain %d, training_done_table 0x%02X 
+9335,i, WoW Entry mode, update caldb(return) chainmask %d  
+9334,I,Error: %s Invalid DPD table address 
+9334,I,Error: %s Invalid DPD table address 
+9334,I,Error: %s Invalid DPD table address 
+9334,I,Error: %s Invalid DPD table address 
+9337,iiII, Channel %d  chain (%d) caldb_addr dpdStart 0x%8x dpdCtrlStart 0x%8x  
+9336,i, ********* halphy_mem_paprd_device_update_caldb_addr paprdType %d 
+9335,i, WoW Entry mode, update caldb(return) chainmask %d  
+9334,I,Error: %s Invalid DPD table address 
+9334,I,Error: %s Invalid DPD table address 
+9334,I,Error: %s Invalid DPD table address 
+9334,I,Error: %s Invalid DPD table address 
+9333,iiII, Channel %d chain %d memPaprdCoeff 0x%08x memPaprdCtrl 0x%08x  Memory DPD  
+9332,ii,HwComponentTrxMoselle_paprd::FtmControl : channel %d dpd_enable %d 
  
-9461,,RXDCO ::: CAL_RESTORE phyRxDCOCal_wcn6750 failed
+9331,iii,StorePaprd: paprdType %d chain %d table %d 
+9330,,lDPD: StorePaprd WoW Entry mode, return 
+9329,,Memory DPD :  Beginning of memory StorePaprd  
+9328,, eDPD: StorePaprd WoW Entry mode, (return) 
+9327,iiII,StorePaprd: DPD_MEMORY: dpd_tbl_start_idx %d dpd_tbl_end_idx %d validBits 0x%02x mask 0x%02x 
+9326,iiI,StorePaprd: DPD_MEMORY: txChain %d tableIndex %d updated validBits 0x%x 
+9325,,Memory DPD :  end of memory StorePaprd  
+9275,i,PAPRD ResetParams phyExtn = %d
  
-9460,,RXDCO ::: not support 160/80+80 CAL_RESTORE in convertNewRxdcoLutfromCalDb !!!
+9324,,PHY INCATIVE : retrun 
+9293,iii,PAPRD PHY ID %d GetDPDEnable() DPD enable (lDPD %d eDPD %d) 
+9323,i,RestorePaprd : caltype %d  
+9300,,alloc mem fail 
+9300,,alloc mem fail 
+9322,i, ReStorePaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
+9321,iI,RestorePaprd (DPD_MEMORYLESS): chain %d Cal valid bits 0x%02X  
+9320,,*********** RestorePaprd : DPD_MEMORY  
+9319,,PAPRD ProcessMemDPD 
+9318,,StoreMemPaprd Entry 
+9317,iiI,StoreMemPaprd: dpd_tbl_start_idx %d dpd_tbl_end_idx %d mask 0x%02X 
+9316,, StoreMemPaprd WoW Entry mode, StorePaprd (return) paprdType   
+9315,iiII,StoreMemPaprd: txChain %d tableIndex %d updated validBits 0x%x training_done_table 0x%x 
+9314,ii, chain %d dpdPostScalingValue %d 
+9313,iii, chain %d table %d dpdWarmPktDacGain %d 
+9312,iii, chain %d table %d dpdGMGlutIdx %d 
+9313,iii, chain %d table %d dpdWarmPktDacGain %d 
+9312,iii, chain %d table %d dpdGMGlutIdx %d 
+9311,, Greener Tx with eDPD is NOT supported for 2.4GHz band, disabling it by force 
+9310,iii, chain %d table %d ldpdTrainingDacGain %d 
+9310,iii, chain %d table %d ldpdTrainingDacGain %d 
+9309,i,ValidateCalDb : Invalid caltype %d  
+9308,ii, ValidateCalDb WoW Entry mode, ValidateCALDB(return) paprdType %d  chainmask %d  
+9307,ii, halphyDPDValidateCalDB paprdType %d  chainmask %d,  
+9306,i, CALIBRATION COMPLETE  chain %d, result 1 
+9305,iiii, halphyPaprdValidateCalibration calattempts %d %d, validBits %d %d 
+9304,ii, halphyPaprdValidateCalibration results[0] %d [1] %d 
+9303,iii,PAPRD phy_core_set_paprd_enable : enable %d ldpd %d edpd %d
  
-9459,,RXDCO ::: CAL_SAVE convertNewRxdcoLutfromCalDb failed
+9302,i,eDPD sq fail. sq val %d  
+9301,i,eDPD hw fail. sq val %d  
+9300,,alloc mem fail 
+9300,,alloc mem fail 
+9299,i,RestoreMemPaprd : Invalid caltype %d  
+9298,iii,*********** RestoreMemPaprd : caltype %d channel %d paprdType %d 
+9297,i, RestoreMemPaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
+9296,iI,RestoreMemPaprd: chain %d Cal valid bits 0x%02X 
+9295,ii, NMSE Check failed %d %d 
+9294,iii, NMSE Check %d %d %d 
+9293,iii,PAPRD PHY ID %d GetDPDEnable() DPD enable (lDPD %d eDPD %d) 
+9292,ii,PAPRD PHY ID %d SetPaprdSyncReset not required enable %d 
+9291,i,PAPRD Calibration complete %d 
+9290,iiii,Channel Context :(before BG processing)  workingChannel %d txChainMask  %d  phyrfMode %d  WoW Mode %d 
+9289,iiiii,PAPRD PHY ID %d start %d end %d chan start %d chan end %d 
  
-9458,,RXDCO ::: not support 160/80+80 CAL_SAVE in convertNewRxdcoLutfromCalDb !!!
+9288,iii, postProcessingConfig  %d, valid chain mask %d paprdType %d 
+9287,ii,PAPRDTUNING: SETTING - LoopBack Attn | Glut %d Value %d
  
-9457,,Force RXDCO ReCal from unit test command 
+9286,ii,PAPRDTUNING: SETTING - Timing Delay | Glut %d Value %d
+ 
+9285,iiiii,ChangeTrainingIndex: cur_tbl_idx %d edpd_gtx_enable %d isMccActive %d dpd_tbl_start_idx %d dpd_tbl_end_idx %d 
+9284,i,ChangeTrainingIndex: PAPRD table index %d; skipping chain 
+9283,iiii,ChangeTrainingIndex: paprdType %d tx_gain_idx %d chain %d tableIndex %d  
+9282,iiii,PAPRDTUNING: Channel %d chainIdx %d glutIdx %d gainIdx %d
+ 
+9281,,PAPRD Calibration complete 
+9280,i,Memoryless DPD Restore : Control  paprdType %d 
+9279,i,Memory DPD Restore : Control  paprdType %d 
+9278,iii,phy_paprd_device_PopulatePaprdTables : chain %d tableIndex %d paprdType %d 
+9277,i, PAPRD: XmitTrainingFrame failed. Status %d 
+ 
+9276,i, PAPRD: XmitTrainingFrame tx_count %d
+ 
+9275,i,PAPRD ResetParams phyExtn = %d
+ 
+9274,I,PAPRD:HcaHwComponentTrxMoselle_paprd::HwDisable : PhyBase %8x 
+ 
+9367,ii,HcaHwComponentTrxMoselle_efuse::ReadPerRfa %d, %d 
+9366,II,HcaHwComponentTrxMoselle_efuse::WritePerRfa 0x%x, 0x%x 
+9365,ii,HcaHwComponentTrxMoselle_efuse::WritePerRfa::XO cdacin %d, cdacout %d 
 3080,,Error: pHandle is NULL 
-3079,i,Error: phyId %d is INVALID 
-9456,i,RXDCO ::SM::: convertNewRxdcoLutfromCalDb chainIdx = %d pStart= NULL!!!!
+9364,i,eFuse read fail %d 
+9363,III,efuseR[%x] ->address [0x%lX] Value 0x%lx 
+9362,II,Error: buffer is out of bounds. offset = %lu, numBytes = %lu
  
-9455,iII,Restore Rxdco LUT OVD from caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x
+9359,I,WLAON_WL_AON_REG_REG_BASE: p:0x%x 
+9358,I,WLAON_WL_AON_REG_REG_BASE: a:0x%x 
+9361,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: p:0x%x 
+9360,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: a:0x%x 
+9361,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: p:0x%x 
+9360,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: a:0x%x 
+9361,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: p:0x%x 
+9360,I,WLAN_SECURITY_CONTROL_CORE_REG_BASE: a:0x%x 
+9359,I,WLAON_WL_AON_REG_REG_BASE: p:0x%x 
+9358,I,WLAON_WL_AON_REG_REG_BASE: a:0x%x 
+9357,II,Error: %lu/%lu bytes were not written to eFuse correctly.
  
-9454,iII,convertNewRxdcoLutfromCalDb:::Save Rxdco LUT to caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x
+9369,IIIII,GDSC_STATUS returned 0xDEADC0DE! wsi0stats: 0x%x, wsi2stats: 0x%x, wsistats: 0x%x, BusMatrixCfg: 0x%x,BusMatrixstats: 0x%x 
+9368,iiiIi,cg %d cf %d i2 %d ts %ld fsg %d 
+9415,i,HcaHwComponentTrxMoselle_tpc hybridBias %d 
+9414,II,HcaHwComponentTrxMoselle_tpc tpc_flag %x exouple = %x 
+9413,II,TPC_DBG:EnableCLPC (Moselle) clpc thresh in alutGen %x out %x 
+9412,iii,[TempComp]HcaHwComponentTrxMoselle_tpc::chainIdx=%d, thermCalValue=%d, alphaTherm=%d 
+9411,i,HcaHwComponentTrxMoselle_tpc::EnableCLPC=%d 
+9410,iiiiiiii,txBBF_RFALDO_glutSS = %d xtal_enable = %d ppmOffset_At30C = %d ppmOffset_At85C = %d ppmOffset_At100C = %d, ppmOffset_TpTh30C = %d, ppmOffset_TpTh80C = %d, ppmOffset_TpTh100 = %d 
+9409,i,ov_rel0:%d 
+9408,iIIII,DumpTpcRegisters: phyId %d, PrimaryChan %u, SecondaryChan %u, txChainMask %u, rxChainMask %u 
+9407,iiiiiii,DumpTpcRegisters: Home Chan = %d, RF Mode = %d, Pwr Mask = %d, Phy Mode = %d, GLUT_DAC_GAIN_CAL = %d, CMD_COUNT_TXGAIN_COUNT_B0 = %d, CMD_COUNT_TXGAIN_COUNT_B1 =%d 
+9406,iIiiiii,DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B0 = 0x%0x, LATEST_TARGET_PWR_B0 = %d, LATEST_DAC_GAIN_B0 = %d, LATEST_TXGAIN_IDX_B0 = %d, LATEST_GLUT_IDX_B0 = %d, LATEST_TX_IQ_IDX_B0 = %d 
+9405,iIiiiii,DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B1 = 0x%0x, LATEST_TARGET_PWR_B1 = %d, LATEST_DAC_GAIN_B1 = %d, LATEST_TXGAIN_IDX_B1 = %d, LATEST_GLUT_IDX_B1 = %d, LATEST_TX_IQ_IDX_B1 = %d 
+9404,iIiii,DumpTpcRegisters: phyId = %d, LATEST_LB_L_B0 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B0 = %d, LATEST_CLPC_ERR_B0 = %d, LATEST_MEAS_PWR_OUT_B0 = %d 
+9403,iIiii,DumpTpcRegisters: phyId = %d, LATEST_LB_L_B1 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B1 = %d, LATEST_CLPC_ERR_B1 = %d, LATEST_MEAS_PWR_OUT_B1 = %d 
+9402,iIIII,DumpTpcRegisters: phyId = %d, 2G_TPC_FB_12_STAT_B0 = 0x%0x, 2G_TPC_FB_12_STAT_B1 = 0x%0x, 5G_TPC_FB_12_STAT_B0 = 0x%0x, 5G_TPC_FB_12_STAT_B1 = 0x%0x 
+9401,iIiiIii,DumpTpcRegisters: phyId = %d, TPC_GEN_CTRL_L = 0x%0x, OLPC_MODE = %d, TARGET_PWR_CLPC_THR_CORR = %d; TPC_CLPC_CTRL = 0x%0x, CLPC_ERR_UPDATE_DIS = %d, MASK_OUT_CLPC_ERR_UPDATE = %d 
+9400,iIiiIii,DumpTpcRegisters: phyId = %d, TPC_CHN_STAT_LATEST_TXGAIN_L_B0 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B0 = %d, LATEST_WSI_TPC_ATTEN_B0 = %d; TPC_CHN_STAT_LATEST_TXGAIN_L_B1 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B1 = %d, LATEST_WSI_TPC_ATTEN_B1 = %d 
+9399,iii,force glut: chain%d, gainindex%d: dacgain=%d
  
-9453,,APPLICALBE_RESUBMISSION_ONLY:: failure on not getting pStart (= NULL) from caldb! 
-9452,i,APPLICALBE_RESUBMISSION_ONLY:: failure on getting chainIdx:%d from pPhyRxdcoInput 
-9451,iiIi,:::: Can't do rxdco calibration due to conditionally check fails: isSBS = %d, phyId=%d, pwrMask=%x, callingContext)=%d
+9398,iI,OPC: phyId:%d state 0x%x 
+9397,i, GetLatestThermValue :%d 
+9396,iiiiiii, bHomeChan %d txchainmask %d txChainMaskPrv[phyId][currentTalIdx] %d freq1 %d freq2 %d resetCause %d RetentionIMPS %d 
+9395,iiiii,phyId %d CurTalIdx %d previousChan_freq1 %d previous_TalTdx %d previousChan_freq1 %d 
+9394,iii,calFlagOut %d firstHomeChan2 %d,%d 
+9393,I,commonBoardFlags %x 
+9392,ii,[2G]twoPointReturn.pwrAtPdadc ch%d: %d 
+9391,ii,[5G]twoPointReturn.pwrAtPdadc ch%d: %d 
+9390,ii,[6G]twoPointReturn.pwrAtPdadc ch%d: %d 
+9389,i, GetLatestAccumulatedCLPCError :%d 
+9388,i, GetLatestAccumulatedCLPCErrorPerChain :%d 
+9387,iIIIII,DumpTpcLuts: phyId %d, PrimaryChan %u, SecondaryChan %u, dumpMask=%u  txChainMask %u, rxChainMask %u 
+9386,IIIIIIII,DumpTpcLuts: GLUT: tpcTblIdx %3u |  tpcChainIdx %3u | tpcGainIdx %3u | pwrMeas %3d | minDacGain %3d | txGainIdx %3d | clpcError %3d | tpcClPktCnt %3d 
+9385,IIIIIIIII,DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcPlutIdx %3u | pdadc[%3u-%3u] HEX:%8x | pdadc[%3u-%3u] HEX:%8x | 
+9384,IIIIIIIII,DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcAlutIdx %3u | Alut tgtPwr Step [%3u-%3u] HEX:%8x | Alut tgtPwr Step [%3u-%3u]  HEX:%8x 
+9383,IiIi,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_1 (0x%08x) | PD_DC_SEL= %d 
+9382,IiIii,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_1 (0x%08x) | PDET_GAIN_IDX_OVS %d | FE_XPA_RF_DISCONNECT_OVS %d 
+9381,IiII,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_3 (0x%08x) 0x%08x 
+9380,IiIi,TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_8_B0 (0x%08x) | PDADC_BIAS= %d 
+9379,i,TPC_DUMP_BDF : DUMP BDF GLUT FOR FREQ=%d 
+9376,i,TPC-DUMP_BDF calFreqPier2G=%d 
+9375,i,TPC-DUMP_BDF calFreqPier5G=%d 
+9378,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
+9378,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
+9377,i,TPC_DUMP_BDF_PLUT : DUMP BDF PLUT FOR FREQ=%d 
+9376,i,TPC-DUMP_BDF calFreqPier2G=%d 
+9375,i,TPC-DUMP_BDF calFreqPier5G=%d 
+9374,i,TPC_DUMP_BDF : DUMP BDF CLPC FOR FREQ=%d 
+9373,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
+9373,IIIII,TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
+9372,II,TPC_DUMP_RATEARRAY : ratesArray[%u] = 0x%x 
+9371,II,TPC_DUMP_RATEARRAY : ratesArray2[%u] = 0x%x 
+9370,iiiiiii,tpc glut chainIdx:%d channel:%d glutIdxEnd:%d i:%d txGainIdx:%d measPwr:%d minDacGain:%d 
+9432,I,XTAL CAL_SetXtalCalCWTone: enableFlag = %x 
+9431,i,XTAL_CAL - CWgain_index = %d 
+9430,i,XTAL_CAL clear - gainIdx4XtalCal = %d 
+9429,iiI,XTAL_CAL: SET - Reg_values, chain = %d, idx = %d, value = 0x%x
  
-9450,i,RXDCO Standalone:: time = %d 
-9449,,:::: phyrf_turn_off is called 
-9448,,:::: phyrf_turn_on is called 
-9485,i,Calibration is in progress on phyId %d 
-9484,iii,DPD Cal State m/c ::: new_channel_change_request(%d) on channel %d smState %d 
-9483,,PAPRD: background thread is active(eDPD is running), calibration is in progress 
-9482,iiiii,PAPRD: already in progress - bHomeChan %d  channel %d calChannel %d timerActive %d  dpd cal State %d returning 
-9481,i,PAPRD : Cancel timer: cur channel %d 
-9480,,PAPRD: DPD disabled for this range of frequency 
-9479,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD Type(MemLess), phy %d 
-9478,Iiiii,DPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d  
-9477,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
-9476,,Cant fo DPD Calibration , WoW mode is enabled 
-9475,ii, finalCase %d globalCallingContext %d 
-9474,ii,Cals attempted chain %d  %d  
-9473,ii,Cals cal valid bits chain %d %d  
-9472,i,PAPRD: paprdEnable %d  
-9471,i,Invalid channel %d
+9428,iI,XTAL_CAL: middle- Reg_values, chain = %d, value = 0x%x
  
-9489,,TXBwFilter: Restored now 
-9488,,TXBwFilter: Save now 
-9487,,RXBwFilter: Restored now 
-9486,,RXBwFilter: Save now 
-9506,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD(Memory), phy %d 
-9505,iiiii,PAPRD: already in progress -bHomeChan %d  home channel %d cal channel %d timerActive %d  dpd cal State %d, returning 
-9504,i,PAPRD : Cancel timer Channel %d 
-9480,,PAPRD: DPD disabled for this range of frequency 
-9503,,DPD Cal:: cannot do cal - A2DP active 
-9502,iii,Return to same home channel so restore: calChannel %d, band_center_freq1 %d, finalCase %d
+9428,iI,XTAL_CAL: middle- Reg_values, chain = %d, value = 0x%x
  
-9501,ii,PAPRD: g_forceDPDReCal = %d, finalCase %d 
-9500,iiiii,DPD_MEMORY Standalone: phyId %d channel %d callingContext %d finalCase %d isMccActive %d 
-9499,ii,PAPRD: Avoid eDPD calibration in MCC scenario, phyId %d channel %d  
-9498,iiiiii,PAPRD: INVALIDATING CALDB caldb channel %d home channel %d cal channel %d chain %d chain_count %d finalCase %d 
-9497,,Cannot do DPD Calibration, WoW mode is enabled 
+9427,iiI,XTAL_CAL: Restore - Reg_values, chain = %d, idx = %d, value = 0x%x
+ 
+9426,iiI,XTAL_CAL_MAP: Clear - Reg_values, chain = %d, idx = %d, value = 0x%x
+ 
+9425,iII,XtalCal::sign_flag=%d,  ppm(0.5 unit) = %x value = %x 
+ 
+9424,iii,PPM WAR: halphy_bdf_GetXtalCalValue: capin=%d, capout=%d offsetPPM = %d 
+9423,ii,PPM WAR:: Entering AdjustXtalForLongPkt: capin=%d, capout=%d 
+9422,iiii,PPM WAR:: delta = %d, loop %d,  residue=%d, STEPSIZE=%d 
+9421,ii,PPM WAR : CAPIN %d CAPOUT %d 
+9420,iii,PPM WAR:: AdjustXtalCAPValue -> bdf::: CAPIN %d CAPOUT %d, offsetPPM %d 
+9419,i,PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
+9419,i,PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
+9418,iii,PPM WAR :: %d us used for updating CAPIN %d CAPOUT %d
+ 
+9417,iii,PPM WAR:: AdjustXtalCAPValue::: incoming adjusted ppm X = %d real adjusted ppm Y = %d, (X - Y) = %d 
+9416,,OTPPatch failed!!! 
+9443,,cal DB file received is NULL. Need Re-calibration 
+9442,,checkSum of CalDB Failed. Need Re-calibration 
+9441,iiii,At PDR/SSR Temperature delta is greater than 25, hence cold boot cal is required -> TempDelta = %d, Downloaded cal Temp = %d, current_temperaure[%d] = %d 
+9440,,At PDR/SSR Temperature delta is less than 25, hence using downloaded cal data 
+9439,,ERROR : cal DB received is NULL 
+9438,ii, Warning: tempBin file incorrect size, %d should be >= %d
+ 
+9437,i,data retrieved from host. fileSize = %d 
+ 
+9436,i,TrxHastingPrime-RSSI:%d 
+9435,,NULL point error 
+9434,,NF Cal isn't completed. No NF value. 
+9433,iI,Not support chain %d, nfType=0x%x 
+9447,,TXBwFilter: Restored now 
+9446,,TXBwFilter: Save now 
+9445,,RXBwFilter: Restored now 
+9444,,RXBwFilter: Save now 
+9452,i,calSmDET: PDET_Standalone callingContext = %d 
+9451,,disable pkdet, bt busy 
+9450,i,calSmPDET: save invoked on chainIdx = %d 
+9450,i,calSmPDET: save invoked on chainIdx = %d 
+9449,i,calSmPDET: restore invoked on chainIdx = %d 
+9448,,Welcome, cal SM for Pdet Cal will be created 
+9453,,IM2CAL:  completed 
+9454,,calSmDac: restore invoked 
+9469,i,Calibration is in progress on phyId %d 
+9468,iii,DPD Cal State m/c ::: new_channel_change_request(%d) on channel %d smState %d 
+9467,,PAPRD: background thread is active(eDPD is running), calibration is in progress 
+9466,iiiii,PAPRD: already in progress - bHomeChan %d  channel %d calChannel %d timerActive %d  dpd cal State %d returning 
+9465,i,PAPRD : Cancel timer: cur channel %d 
+9464,,PAPRD: DPD disabled for this range of frequency 
+9463,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD Type(MemLess), phy %d 
+9462,Iiiii,DPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d  
+9461,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
+9460,,Cant fo DPD Calibration , WoW mode is enabled 
+9459,ii, finalCase %d globalCallingContext %d 
+9458,ii,Cals attempted chain %d  %d  
+9457,ii,Cals cal valid bits chain %d %d  
+9456,i,PAPRD: paprdEnable %d  
+9455,i,Invalid channel %d
+ 
+9547,iI,combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIq=%x 
+9546,iI,combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
+9545,iI,combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
+9544,iI,combCal_SM_save: TXLO: chainIdx=%d,  pStartTxLo=%x 
+9543,iI,combCal_SM_save: TXIQ: chainIdx=%d,  pStartTxIq=%x 
+9483,i,cannot update txiq table in caldb for chainIdx = %d! 
+9481,i,cannot update txlo table in caldb for chainIdx = %d! 
+9542,i,combCal_SM_enable: Incorrect phyId %d 
+9541,I,CAL_COMMON_PARAM pHandle 	=%x 
+9540,i,CAL_COMMON_PARAM calType 	=%d 
+9539,i,CAL_COMMON_PARAM cmdGroupId 	=%d 
+9538,i,CAL_COMMON_PARAM isRestoreOnly 	=%d 
+9537,i,CAL_COMMON_PARAM calTypeVarianceId 	=%d 
+9536,iii,CAL_COMMON_PARAM reserved 	=%d %d %d 
+9535,I,CAL_COMMON_PARAM (pIn->pHandle).phyId 	=%x 
+9534,I,CAL_COMMON_PARAM halphyBW 	=%x 
+9533,i,PHYDEVLIB_PHY_INPUT phyId 		=%d 
+9532,i,PHYDEVLIB_PHY_INPUT bandCode	=%d 
+9531,i,PHYDEVLIB_PHY_INPUT bwCode 	=%d 
+9530,i,PHYDEVLIB_PHY_INPUT phyMode 	=%d 
+9529,i,PHYDEVLIB_PHY_INPUT band_center_freq1 	=%d 
+9528,i,PHYDEVLIB_PHY_INPUT band_center_freq2 	=%d 
+9527,I,PHYDEVLIB_PHY_INPUT txChMask 	=%x 
+9526,I,PHYDEVLIB_PHY_INPUT rxChMask 	=%x 
+9525,I,PHYDEVLIB_PHY_INPUT phyBase 	=%x 
+9524,I,PHYDEVLIB_PHY_INPUT phyBaseExt 	=%x 
+9523,i,PHYDEVLIB_PHY_INPUT concMode 	=%d 
+9522,i,PHYDEVLIB_PHY_INPUT dynPriChan 	=%d 
+9521,i,PHYDEVLIB_PHY_INPUT homeCh		=%d 
+9520,i,PHYDEVLIB_PHY_INPUT pwrMask 		=%d 
+9519,i,PHYDEVLIB_PHY_INPUT extLNA 		=%d 
+9518,i,PHYDEVLIB_PHY_INPUT extPA 		=%d 
+9517,i,PHYDEVLIB_PHY_INPUT isSBSmode 	=%d 
+9516,i,PHYDEVLIB_PHY_INPUT loType 		=%d 
+9515,i,PHYDEVLIB_PHY_INPUT dpdMode 	=%d 
+9514,i,PHYDEVLIB_PHY_INPUT loadIniMask 	=%d 
+9513,i,PHYDEVLIB_PHY_INPUT calMask 	=%d 
+9512,i,PHYDEVLIB_PHY_INPUT cal_mode_ctrl 	=%d 
+9511,i,CCAL_INPUT calCmdId		=%d 
+9510,I,CCAL_INPUT cal_chain_mask		=%x 
+9509,i,CCAL_INPUT cal_mode		=%d 
+9508,i,CCAL_INPUT mode (80p80 mode)		=%d 
+9507,i,CCAL_INPUT fixed_gain		=%d 
+9506,i,CCAL_INPUT engineSharing		=%d 
+9505,i,CCAL_INPUT driveTxGLUTIdx		=%d 
+9504,i,CCAL_INPUT enableBlockAccAvg		=%d 
+9503,i,CCAL_INPUT blockSize[0]		=%d 
+9502,i,CCAL_INPUT dcEstWindowSize		=%d 
+9501,i,CCAL_INPUT numOfBlocks		=%d 
+9500,i,CCAL_INPUT numSamplesToReadback[0]	=%d 
+9499,i,CCAL_INPUT numSamplesToReadback[1]	=%d 
+9498,i,CCAL_INPUT numSamplesToReadback[2]	=%d 
+9497,i,CCAL_INPUT rxGainSettlingTime		=%d 
+9496,i,CCAL_INPUT txGainSettlingTime		=%d 
+9495,i,CCAL_INPUT txShiftSettlingTime		=%d 
+9494,i,CCAL_INPUT calModeSettlingTime	=%d 
+9493,i,CCAL_INPUT loopbackSettlingTime	=%d 
+9492,i,CCAL_INPUT txResidueSettlingTime	=%d 
+9491,i,CCAL_INPUT numTaps[0] 		=%d 
+9490,i,CCAL_INPUT numTaps[1] 		=%d 
+9489,i,combCal_SM_disable: Incorrect phyId %d 
+9488,iI,combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIq=%x 
+9487,i,cannot update rxiq table in caldb for chainIdx = %d! 
+9486,iI,combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
+9485,iI,combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
+9484,iI,combCal_SM_restore: TXIQ: chainIdx=%d,  pStartTxIq=%x 
+9483,i,cannot update txiq table in caldb for chainIdx = %d! 
+9482,iI,combCal_SM_restore: TXLO: chainIdx=%d,  pStartTxLo=%x 
+9481,i,cannot update txlo table in caldb for chainIdx = %d! 
+9480,ii,FC_HANDLE  finalCase before switch statement		=%d, localtxloValid=%d 
+9479,,COMBCAL FC_HANDLE: BTC_CALLBACK_FALSE, skip Cal 
+9478,,COMB FC_HANDLE: BTC_CALLBACK_NULL and CAL disabled 
+9477,i,FC_HANDLE  finalCase before switch statement		=%d 
+9476,iiiIiIii,cur_tbl_idx=%d, hwsBw=%d, freq1=%d, tMask=%x, concMode=%d, pwrMask=%x, isSBSmode=%d, loadIniMask=%d 
+9475,iiiii,CalSM: callingContext=%d, shortenPhyId=%d, pwrMaskRead=%d, illegalSbsLpCombo=%d, determineSBSMode(pHandle))=%d 
+9474,i,:::: return upon illegal pwrMask/SBS input/onlyOne main synth supported: pwrMaskRead = %d 
+9473,,:::: return upon SCAN: disable 
+9472,,::::return upon back to same home channel from scan or from previous home channel wakeup: enable only 
+9471,,:::: bypass FCS/PS wakeup check, continue use calDB to determine action 
+9470,ii,CalSM: effective pwrMaskRead=%d, numSynForCal=%d 
+9564,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD(Memory), phy %d 
+9563,iiiii,PAPRD: already in progress -bHomeChan %d  home channel %d cal channel %d timerActive %d  dpd cal State %d, returning 
+9562,i,PAPRD : Cancel timer Channel %d 
+9464,,PAPRD: DPD disabled for this range of frequency 
+9561,,DPD Cal:: cannot do cal - A2DP active 
+9560,iii,Return to same home channel so restore: calChannel %d, band_center_freq1 %d, finalCase %d
+ 
+9559,ii,PAPRD: g_forceDPDReCal = %d, finalCase %d 
+9558,iiiii,DPD_MEMORY Standalone: phyId %d channel %d callingContext %d finalCase %d isMccActive %d 
+9557,ii,PAPRD: Avoid eDPD calibration in MCC scenario, phyId %d channel %d  
+9556,iiiiii,PAPRD: INVALIDATING CALDB caldb channel %d home channel %d cal channel %d chain %d chain_count %d finalCase %d 
+9555,,Cannot do DPD Calibration, WoW mode is enabled 
 3055,,Can't do DPD Calibration: DUT is in HWDTIM 
-9496,Iiiiii,eDPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d finalCase %d 
-9495,i,max attempts %d  
-9473,ii,Cals cal valid bits chain %d %d  
-9494,i,Cals attempted(mem_dpd) chain 0 %d  
-9493,i,Cals attempted(mem_dpd) chain 1 %d  
-9473,ii,Cals cal valid bits chain %d %d  
-9492,i,PAPRD: Memory DPD , Final Case  %d 
-9491,i,PAPRD: Memory DPD , Resubmission Final Case %d 
-9477,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
-9490,ii, new channel request %d channel %d 
-9471,i,Invalid channel %d
+9554,Iiiiii,eDPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d finalCase %d 
+9553,i,max attempts %d  
+9457,ii,Cals cal valid bits chain %d %d  
+9552,i,Cals attempted(mem_dpd) chain 0 %d  
+9551,i,Cals attempted(mem_dpd) chain 1 %d  
+9457,ii,Cals cal valid bits chain %d %d  
+9550,i,PAPRD: Memory DPD , Final Case  %d 
+9549,i,PAPRD: Memory DPD , Resubmission Final Case %d 
+9461,Ii,DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
+9548,ii, new channel request %d channel %d 
+9455,i,Invalid channel %d
  
-9507,,calSmDac: restore invoked 
-9585,iI,combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIq=%x 
-9584,iI,combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
-9583,iI,combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
-9582,iI,combCal_SM_save: TXLO: chainIdx=%d,  pStartTxLo=%x 
-9581,iI,combCal_SM_save: TXIQ: chainIdx=%d,  pStartTxIq=%x 
-9521,i,cannot update txiq table in caldb for chainIdx = %d! 
-9519,i,cannot update txlo table in caldb for chainIdx = %d! 
-9580,i,combCal_SM_enable: Incorrect phyId %d 
-9579,I,CAL_COMMON_PARAM pHandle 	=%x 
-9578,i,CAL_COMMON_PARAM calType 	=%d 
-9577,i,CAL_COMMON_PARAM cmdGroupId 	=%d 
-9576,i,CAL_COMMON_PARAM isRestoreOnly 	=%d 
-9575,i,CAL_COMMON_PARAM calTypeVarianceId 	=%d 
-9574,iii,CAL_COMMON_PARAM reserved 	=%d %d %d 
-9573,I,CAL_COMMON_PARAM (pIn->pHandle).phyId 	=%x 
-9572,I,CAL_COMMON_PARAM halphyBW 	=%x 
-9571,i,PHYDEVLIB_PHY_INPUT phyId 		=%d 
-9570,i,PHYDEVLIB_PHY_INPUT bandCode	=%d 
-9569,i,PHYDEVLIB_PHY_INPUT bwCode 	=%d 
-9568,i,PHYDEVLIB_PHY_INPUT phyMode 	=%d 
-9567,i,PHYDEVLIB_PHY_INPUT band_center_freq1 	=%d 
-9566,i,PHYDEVLIB_PHY_INPUT band_center_freq2 	=%d 
-9565,I,PHYDEVLIB_PHY_INPUT txChMask 	=%x 
-9564,I,PHYDEVLIB_PHY_INPUT rxChMask 	=%x 
-9563,I,PHYDEVLIB_PHY_INPUT phyBase 	=%x 
-9562,I,PHYDEVLIB_PHY_INPUT phyBaseExt 	=%x 
-9561,i,PHYDEVLIB_PHY_INPUT concMode 	=%d 
-9560,i,PHYDEVLIB_PHY_INPUT dynPriChan 	=%d 
-9559,i,PHYDEVLIB_PHY_INPUT homeCh		=%d 
-9558,i,PHYDEVLIB_PHY_INPUT pwrMask 		=%d 
-9557,i,PHYDEVLIB_PHY_INPUT extLNA 		=%d 
-9556,i,PHYDEVLIB_PHY_INPUT extPA 		=%d 
-9555,i,PHYDEVLIB_PHY_INPUT isSBSmode 	=%d 
-9554,i,PHYDEVLIB_PHY_INPUT loType 		=%d 
-9553,i,PHYDEVLIB_PHY_INPUT dpdMode 	=%d 
-9552,i,PHYDEVLIB_PHY_INPUT loadIniMask 	=%d 
-9551,i,PHYDEVLIB_PHY_INPUT calMask 	=%d 
-9550,i,PHYDEVLIB_PHY_INPUT cal_mode_ctrl 	=%d 
-9549,i,CCAL_INPUT calCmdId		=%d 
-9548,I,CCAL_INPUT cal_chain_mask		=%x 
-9547,i,CCAL_INPUT cal_mode		=%d 
-9546,i,CCAL_INPUT mode (80p80 mode)		=%d 
-9545,i,CCAL_INPUT fixed_gain		=%d 
-9544,i,CCAL_INPUT engineSharing		=%d 
-9543,i,CCAL_INPUT driveTxGLUTIdx		=%d 
-9542,i,CCAL_INPUT enableBlockAccAvg		=%d 
-9541,i,CCAL_INPUT blockSize[0]		=%d 
-9540,i,CCAL_INPUT dcEstWindowSize		=%d 
-9539,i,CCAL_INPUT numOfBlocks		=%d 
-9538,i,CCAL_INPUT numSamplesToReadback[0]	=%d 
-9537,i,CCAL_INPUT numSamplesToReadback[1]	=%d 
-9536,i,CCAL_INPUT numSamplesToReadback[2]	=%d 
-9535,i,CCAL_INPUT rxGainSettlingTime		=%d 
-9534,i,CCAL_INPUT txGainSettlingTime		=%d 
-9533,i,CCAL_INPUT txShiftSettlingTime		=%d 
-9532,i,CCAL_INPUT calModeSettlingTime	=%d 
-9531,i,CCAL_INPUT loopbackSettlingTime	=%d 
-9530,i,CCAL_INPUT txResidueSettlingTime	=%d 
-9529,i,CCAL_INPUT numTaps[0] 		=%d 
-9528,i,CCAL_INPUT numTaps[1] 		=%d 
-9527,i,combCal_SM_disable: Incorrect phyId %d 
-9526,iI,combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIq=%x 
-9525,i,cannot update rxiq table in caldb for chainIdx = %d! 
-9524,iI,combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
-9523,iI,combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
-9522,iI,combCal_SM_restore: TXIQ: chainIdx=%d,  pStartTxIq=%x 
-9521,i,cannot update txiq table in caldb for chainIdx = %d! 
-9520,iI,combCal_SM_restore: TXLO: chainIdx=%d,  pStartTxLo=%x 
-9519,i,cannot update txlo table in caldb for chainIdx = %d! 
-9518,ii,FC_HANDLE  finalCase before switch statement		=%d, localtxloValid=%d 
-9517,,COMBCAL FC_HANDLE: BTC_CALLBACK_FALSE, skip Cal 
-9516,,COMB FC_HANDLE: BTC_CALLBACK_NULL and CAL disabled 
-9515,i,FC_HANDLE  finalCase before switch statement		=%d 
-9514,iiiIiIii,cur_tbl_idx=%d, hwsBw=%d, freq1=%d, tMask=%x, concMode=%d, pwrMask=%x, isSBSmode=%d, loadIniMask=%d 
-9513,iiiii,CalSM: callingContext=%d, shortenPhyId=%d, pwrMaskRead=%d, illegalSbsLpCombo=%d, determineSBSMode(pHandle))=%d 
-9512,i,:::: return upon illegal pwrMask/SBS input/onlyOne main synth supported: pwrMaskRead = %d 
-9511,,:::: return upon SCAN: disable 
-9510,,::::return upon back to same home channel from scan or from previous home channel wakeup: enable only 
-9509,,:::: bypass FCS/PS wakeup check, continue use calDB to determine action 
-9508,ii,CalSM: effective pwrMaskRead=%d, numSynForCal=%d 
-9590,i,calSmDET: PDET_Standalone callingContext = %d 
-9589,,disable pkdet, bt busy 
-9588,i,calSmPDET: save invoked on chainIdx = %d 
-9588,i,calSmPDET: save invoked on chainIdx = %d 
-9587,i,calSmPDET: restore invoked on chainIdx = %d 
-9586,,Welcome, cal SM for Pdet Cal will be created 
-9599,,PADROOP FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
-9598,,PADROOP FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
-9597,i,PADROOP: finalCase %d 
-9596,i,PADROOP: Restoring for chain %d 
-9595,,PDCCAL Error during restoration from CALDB 
-9594,i,PADROOPCAL FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL Done in %d 
-9593,i,PADROOP: Saving for chain %d 
-9592,,PDCCAL Error during save to CALDB 
-9591,,PDCCAL receipe not sucessful. Disabling the CAL 
+9587,i,ITER2CMDIDX  iterIdx 		=%d 
+9586,i,FC_HANDLE  finalCase 		=%d 
+9585,,RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal in DTIM 
+9584,,RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL in DTIM 
+9583,,RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
+9582,,RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
+9581,,RXDCO FC_HANDLE: BTC_CALLBACK_NULL and CAL disabled 
+9580,ii,FC_HANDLE  finalCase before switch statement=%d, localrxDcoValid=%d 
+9579,,RXDCO ::: CAL_RESTORE convertNewRxdcoLutfromCalDb failed
+ 
+9578,,RXDCO ::: CAL_RESTORE phyRxDCOCal_wcn6750 failed
+ 
+9577,,RXDCO ::: not support 160/80+80 CAL_RESTORE in convertNewRxdcoLutfromCalDb !!!
+ 
+9576,,RXDCO ::: CAL_SAVE convertNewRxdcoLutfromCalDb failed
+ 
+9575,,RXDCO ::: not support 160/80+80 CAL_SAVE in convertNewRxdcoLutfromCalDb !!!
+ 
+9574,,Force RXDCO ReCal from unit test command 
+3080,,Error: pHandle is NULL 
+3079,i,Error: phyId %d is INVALID 
+9573,i,RXDCO ::SM::: convertNewRxdcoLutfromCalDb chainIdx = %d pStart= NULL!!!!
+ 
+9572,iII,Restore Rxdco LUT OVD from caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x
+ 
+9571,iII,convertNewRxdcoLutfromCalDb:::Save Rxdco LUT to caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x
+ 
+9570,,APPLICALBE_RESUBMISSION_ONLY:: failure on not getting pStart (= NULL) from caldb! 
+9569,i,APPLICALBE_RESUBMISSION_ONLY:: failure on getting chainIdx:%d from pPhyRxdcoInput 
+9568,iiIi,:::: Can't do rxdco calibration due to conditionally check fails: isSBS = %d, phyId=%d, pwrMask=%x, callingContext)=%d
+ 
+9567,i,RXDCO Standalone:: time = %d 
+9566,,:::: phyrf_turn_off is called 
+9565,,:::: phyrf_turn_on is called 
+9596,,PADROOP FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
+9595,,PADROOP FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
+9594,i,PADROOP: finalCase %d 
+9593,i,PADROOP: Restoring for chain %d 
+9592,,PDCCAL Error during restoration from CALDB 
+9591,i,PADROOPCAL FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL Done in %d 
+9590,i,PADROOP: Saving for chain %d 
+9589,,PDCCAL Error during save to CALDB 
+9588,,PDCCAL receipe not sucessful. Disabling the CAL 
+9599,,CalSM: ADC starts 
+9598,ii,calSmTIADC: do calibration is6G %d tableIdx %d 
+9597,ii,calSmTIADC: do restoration is6G %d tableIdx %d 
 9623,Iii,WMI_CMD_RX CmdId = 0x%x comp_time = %dus pf_cnt = %d 
 9622,IIIIIIII,WMI_CMD_PARAMS 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 
 9621,III,WMI_CMD_PARAMS 0x%08x 0x%08x 0x%08x 
