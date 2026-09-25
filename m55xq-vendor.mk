@@ -2565,7 +2565,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoc_helper.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsoc_helper_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoc_helper_jni.so \
-    vendor/samsung/m55xq/proprietary/vendor/lib64/libsomxcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxcmn.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspatializerparamstorage.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
