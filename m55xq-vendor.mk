@@ -2767,7 +2767,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m55xq/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/vendor.samsung.hardware.keymint-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.keymint-V1-ndk_platform.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so \
-    vendor/samsung/m55xq/proprietary/vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/vendor.samsung.hardware.media.converter-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.media.converter-V2-ndk_platform.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/vendor.samsung.hardware.media.mpp-V5-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.media.mpp-V5-ndk_platform.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.miscpower@2.0.so \
