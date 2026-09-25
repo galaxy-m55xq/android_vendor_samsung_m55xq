@@ -2548,7 +2548,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsnap_compute_secure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute_secure.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsnap_compute_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute_wrapper.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsnap_compute_wrapper_secure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute_wrapper_secure.so \
-    vendor/samsung/m55xq/proprietary/vendor/lib64/libsnap_v1.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_v1.samsung.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_vndk.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsnap_vndk_secure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_vndk_secure.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-manager.so \
