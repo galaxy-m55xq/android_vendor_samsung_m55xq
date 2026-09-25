@@ -2376,7 +2376,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libmpp_common_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp_common_vendor.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libmpp_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp_vendor.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libmppdeflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmppdeflicker.so \
-    vendor/samsung/m55xq/proprietary/vendor/lib64/libmppfrc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmppfrc.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnative-api.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/samsung/m55xq/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
